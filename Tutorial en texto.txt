@@ -1,0 +1,559 @@
+ 
+2024-08-12 Termux es como un emulador de terminal y entorno Linux y gracias a él en Android podemos instalar git para usarlo como lo haríamos desde una terminal de Linux. Además podemos instalar otros programas como: yt-dlp (para descargar videos de YouTube), nnn (Administrador de Archivos), y otros, con tal k se puedan usar desde la terminal
+
+EL PORQUÉ DE ESTE TUTORIAL
+En Linux en MX Linux 21 estoy usando git como un tipo de almacenamiento en la nube, como si fuera:
+
+Dropbox
+MEGA
+Google Drive
+
+y esto mismo con git desde mi celular con Android en Termux para tener offline mis archivos
+
+Ejemplo: He creado un cancionero con acordes de guitarra para usarlo desde el celular con Android y desde el ordenador con Linux:
+
+https://github.com/wachin/Cancionero
+
+Nota: Con el App de GitHub de Microsoft k está en la Play Store no se puede hacer todo lo k se puede hacer con git desde la terminal de Termux.
+
+PROS
+- Archivos offline en el celular
+
+HAY K SABER
+- Sincronización manual
+- Un repo de git contiene una copia de sus archivos en la carpeta oculta .git por lo cual ocupará el doble de espacio o mas
+- Usuarios Avanzados k sepan de Control de versiones con git
+- Usar la terminal
+
+REQUERIMIENTOS
+- Teléfono con Android
+- Repositorio en github.com
+
+ARCHIVOS USABLES
+- Se pueden usar archivos para control de versiones (https://es.m.wikipedia.org/wiki/Control_de_versiones) como: .txt .md, u otros.
+
+En los archivos compatibles con control de versiones solo se aumentará el tamaño del archivo donde se edite y agregue información
+
+Nota: LibreOffice tiene un archivo para control de versiones: .fodt
+https://facilitarelsoftwarelibre.blogspot.com/2020/06/que-es-un-archivo-fodt-fodt-flat-open.html
+pero para este no hay un editor en la Play Store.
+
+Si un archivo no es compatible con control de versiones, después k haya hecho push, si lo vuelve a editar, se copiará dos veces, y si lo vuelve a editar y guardar, se copiará otra vez, y asi más veces por lo k ocupará más espacio (quedarán varias copias k se van guardando)
+
+Yo además uso .docx k es un tipo de archivo k uso en WPS Office (es el de Office de Microsoft) k no es compatible con control de versiones pero yo lo uso para escribir acordes de guitarra los cuales nunca me ocupan mucho espacio, y eso es importante pues de lo contrario al editarlos, guardarlos y volver a editarlos y guardarlos otra vez ocuparán el doble (y así sucesivamente) de espacio en disco
+
+K + SE PUEDE HACER CON GIT?
+- Se puede hacer push, fetch merge y todos los demás comandos para mantener sincronizado el repo
+- Se puede trabajar con los archivos desde:
+
+Android a Linux y viceversa
+Android a Windows y viceversa
+Android a MAC y viceversa
+
+Nota: Los 2 últimos no los he probado, pero sé k existen
+
+-----
+
+COMPATIBILIDAD ENTRE ANDROID Y LINUX
+En el siguiente video:
+
+Aprende GIT Ahora! Curso completo gratis desde cero
+https://youtu.be/VdGzPZ31ts8
+
+Allí Nicolás Schurmann explica, el dice k si sincronizan un repositorio desde Windows a "Linux o MAC" deben configurar el fin de línea para enviar ediciones en código de texto, pero en este tutorial yo no tengo xq hacerlo ya k el usar git desde Termux es como usarlo en Linux, y como luego lo uso en mi ordenador con Linux es como si fuera de Linux a Linux y viceversa o sea no hace falta.
+
+Este tutorial no pretende enseñarle a Ud a usar git. Si Ud no sabe puede buscar en Google las palabras "aprende git cursos" y encontrará en: Udemy, Platzi, devcode, ed.team, Coursera, o https://github.com/JJ/aprende-git , Youtube, etc, pues es necesario k lo sepa usar bien, xq llega un momento k editando un mismo archivo desde dispositivos diferentes, en este caso desde un celular y desde un ordenador, se crean diferencias y hay k hacer Merge
+
+
+INSTALANDO TERMUX Y GIT EN ANDROID 7, 8, 9, 10, 11, 12, 13, 14 +
+Le dejo 2 opciones:
+
+1ra. OPCIÓN: INSTALACIÓN CON XIAOMI
+Si usted tienen un Celular Xiaomi busque en la tienda de aplicaciones:
+
+Mi Picks
+
+o:
+
+GetApps
+
+a:
+
+Termux
+
+lo instala y así de fácil, y abralo
+
+
+ACTUALIZAR Y AUTOMÁTICAMENTE BUSCAR UN REPOSITORIO Y ACTUALIZAR
+Si solo va a usar git en Termux se le facilita todo, solo ponga:
+
+pkg update
+
+Aparece un mensaje k dice:
+
+"Testing the available mirrors:"
+
+k significa:
+
+"Probando los espejos disponibles:"
+
+Lo cual buscará un repo k esté activo
+
+También aparece un mensaje:
+
+"Calculating upgrade... Done
+The following NEW packages will be installed:"
+
+=
+
+"Calculando actualización... Listo
+Se instalarán los siguientes paquetes NUEVOS:"
+
+Explicación.- Si Ud. es usuario de Linux sabrá k 1ro hay k poner update y luego upgrade, pero akí ya no es necesario, update es como un híbrido
+
+le preguntará:
+
+Do you want to continue? [Y/n]
+
+Póngale:
+
+y
+
+y de ENTER. Esté atento xq luego le volverá a preguntar, hay k poner como 5 veces: y
+
+Ahora sí instale git con:
+
+pkg install git
+
+y se instalará sin más.
+
+Nota: update hay k hacerlo con alguna frecuencia, puede ser cada mes, o 2 meses. Es para siempre tener actualizado a git xq sino puede ser k en algún momento no funcione y le de algún error inesperado al estar clonando algún repositorio, ejem:
+
+Receiving objects:  82% (620/754), 19.02 MiB |error: RPC failed; curl 56 OpenSSL SSL_read: Connection reset by peer, errno 104
+error: 666 bytes of body are still expected
+fetch-pack: unexpected disconnect
+
+y para k Termux tenga acceso a su almacenamiento interno ponga:
+
+termux-setup-storage
+
+y de Enter y acepte.
+
+
+2da. OPCIÓN: F-DROID
+Si tiene ejemplo un Samsung, según leí en:
+
+https://github.com/termux/termux-app
+
+la version de Termux en la Play Store está obsoleta y k la solucion es ir a:
+
+https://f-droid.org/
+
+F-Droid es un repositorio de aplicaciones de software libre para dispositivos Android. Funciona como una alternativa a Google Play Store, proporcionando aplicaciones k son de código abierto y, en muchos casos, centradas en la privacidad. Los usuarios pueden descargar la aplicación F-Droid y, a través de ella, acceder a una variedad de aplicaciones k cumplen con estos criterios. F-Droid se distingue por su compromiso con la transparencia y la ética en el desarrollo de software, promoviendo la distribución de aplicaciones sin rastreadores ni anuncios invasivos.
+
+Allí descargarlo e instalarlo, para eso le pedirá (omita este paso si ya lo hubiese hecho) activar en su celular el poder instalar programas desde fuentes externas, e instalarlo y abrirlo y esperar a k se actualicen los repositorios en F-DROID (unos minutos) y allí buscar dándole clic en la lupa que está a la derecha abajo a:
+
+"Termux Emulador de terminal con paquetes"
+
+e instalarlo (le pedirá una confirmación especial de k acepta la instalación de una fuente externa)
+
+Si tiene alguna duda, suba el archivo a:
+
+www.virustotal.com
+
+Nota: También se puede instalar directamente Termux Apk desde (sin instalar F-DROID):
+
+https://f-droid.org/en/packages/com.termux/
+
+Descargarlo e instalarlo
+
+o también se puede instalar desde GitHub (descargue el Universal):
+
+https://github.com/termux/termux-app/releases
+
+Después de instalar Termux, abralo, le pedirá que permita acceder a sus archivos, acepte y como ya sabe poner:
+
+pkg update
+
+y luego escribir:
+
+pkg install git
+
+Esperar a k se instale (si todo sale bien le preguntará en Ingles y ponga: "y"), pero suponiendo k no se pueda a la 1ra vez (le puede salir algún mensaje de error) inténtelo otra vez y debería poderse, luego ponga:
+
+termux-setup-storage
+
+Para ver la versión k tiene instalada de git  ponga en Termux:
+
+git --version
+
+Nota: Si Ud deseara instalar yt-dlp para descargar videos de YouTube, en mi experiencia personal de 2 años de usar Termux, debe elegir un repo manualmente, y tener 2 opciones o 3 k Ud vea k son compatibibles, esto xq al instalar python hay unas librerías k 1 repo puede tener + actualizado k otro y no se iguales los paquetes y no funcionar la instalación de yt-dlp, para eso vea el siguiente tutorial:
+
+-----
+
+ZOOM EN TERMUX
+Si la letra de TERMUX es muy pequeña hágalo más grande usando los dos dedos haciendo zoom hacia dentro o afuera
+
+------
+
+PARA INSTALAR TERMUX EN ANDROID 5, 6
+Vea las instrucciones en el siguiente enlace:
+
+https://youtu.be/eKhjvaLIPnI
+
+Aunque podría ya no servir para nadie, pero lo dejo como consulta.
+
+Desactivar el proceso fantasma en Android para que funcione correctamente Termux en Android
+Es posible que el subía celulares hay que hacer eso
+
+https://youtu.be/w10I_3-Qaqw?si=VxFhe7d68SVst3QB
+
+Nota: En este celular Xiaomi Redmi Note 11 no es necesario hacerlo
+
+------
+
+CREAR Y USAR UN TOKEN COMO CONTRASEÑA
+(Si ya tiene el token omita este paso)
+Para poder explicar mejor usaré la siguiente cuenta:
+
+https://github.com/mamimeli
+
+Ud éntre en la siguiente dirección (también está allí en las opciones de GitHub):
+
+https://github.com/settings/
+
+allí de clic en:
+
+Developer Settings
+
+y luego clic en:
+
+Personal Access Token
+
+Tokens (classic)
+
+Generate New Token (Classic)
+
+o también directamente en la dirección:
+
+https://github.com/settings/tokens
+
+Allí en "Note" póngale algún nombre
+
+En "Expiration" seleccione un tiempo de expiración (Github aconseja poner un tiempo de expiración: https://bit.ly/3BrIvA9 por tal motivo cuando expire habrá k crear otro Token y cambiarlo manualmente del repositorio k haya clonado. Explicaciones más abajo)
+
+Allí en: "Select scopes" marque "repo" (pero si necesita agún otro permiso marquelo) y al final de la página clic en "Generate token"
+
+Copie Ud. inmediatamente el código generado y téngalo en un lugar seguro o en un gestor de contraseñas
+
+
+CLONAR UN REPOSITORIO
+Para clonar un repositorio en la memoria interna primero hay k llegar allí, en Termux poner
+
+PASO 1
+
+cd storage
+
+luego poner:
+
+ls
+
+para ver los repositorios disponibles.
+
+Luego elegir la memoria compartida
+
+PASO 2
+
+cd shared
+
+COMANDO ESPECIAL.- También se puede abreviar los PASOS 1 y 2 solo con:
+
+cd /sdcard
+
+Con cualquiera de los dos métoos llegará a la memoria interna compartida.
+
+Para saber en qué ruta está ponga en Termux:
+
+pwd
+
+y de Enter
+
+Nota: Si es la 1ra vez k abre Termux estará en:
+
+/data/data/com.termux/files/home
+
+y si ya está en la memoria interna aparece:
+
+/sdcard $
+
+Una vez que esté en el Almacenamiento Interno Compartido (llamado shared o /sdcard) clone un Repositorio, ejemplo voy a clonar el siguiente:
+
+git clone https://github.com/mamimeli/Cancion
+
+-----
+
+IDENTIFICARSE EN GIT (Y K NO PIDA OTRA VEZ EL TOKEN)
+Ponga en Termux (reemplace con sus datos):
+
+git config --global user.name suusuario
+
+git config --global user.email sucorreo@servicio.com
+
+Y el siguiente comando es para k git almacene el Token:
+
+git config --global credential.helper store
+
+Y entrar en el repositorio con cd, en mi caso así:
+
+cd Cancion
+
+Ahora haga:
+
+git status
+
+y aparecerá el siguiente mensaje:
+
+/sdcard/Cancionero $ git status
+fatal: detected dubious ownership in repository at '/storage/emulated/0/Cancion'
+To add an exception for this directory, call:
+        git config --global --add safe.directory /storage/emulated/0/Cancion
+
+Allí dice que ha detectar un dueño dudoso y k añada una excepción a ese directorio para aceptarlo como seguro, y en mi caso (Ud debe de poner lo k a Ud le aparezca) lo k tengo k poner es eso k me dice allí mismo:
+
+git config --global --add safe.directory /storage/emulated/0/Cancion
+
+Solucionado (eso deberá hacerlo en cada Repositorio)
+
+Ahora en algún administrador de archivos de Android edite algún archivo
+
+Recomiendo:
+
+CodeFusion: Code Editor | Para texto
+https://play.google.com/store/apps/details?id=com.alif.editor.code
+
+WPS Office | Para Word
+https://play.google.com/store/apps/details?id=cn.wps.moffice_eng
+
+O algún otro archivo suyo
+
+o si desea si usted sabe cómo, edite algún archivo desde la línea de comandos de Termux con nano o vi, sea como sea añada el cambio k ha hecho:
+
+git add .
+
+y debemos hacer un commit, ejm:
+
+git commit -m "Nombre del comit"
+
+Y luego envíe los cambios al repo remoto:
+
+git push
+
+y cuando le pregunte por su Usuario pongalo, y cuando le pregunte por el Password ponga su Token
+
+y se creará el archivo:
+
+.git-credentials
+
+se creará dentro del HOME k Termux Emula, archivo k contendrá el Token.
+
+Nota: Si luego desean usar otro usuario deben ingresarlo y se cambiará, y si desean regresar al anterior deben ingresarlo otra vez, es decir, siempre estará activo el último usuario ingresado (Nota: Este Tuto también admite gitlab)
+
+Y con eso ya podemos hacer:
+
+git status, push, fetch, merge, pull, etc
+
+Ahora, haga otro cambio en algún archivo, y haga otra vez: add, commit y push, y ya no le pedirá otra vez el token (si ha seguido estos pasos en el orden indicado).
+
+-----
+
+CÓMO EDITAR Y AGREGAR TEXTO EN NANO
+Usando Termux llegará el momento k tenga k usar algún editor de texto de línea de comandos como: "Nano" k me vino instalado en el Termux de "Mi Picks" de Xiaomi, pero sino está instalado, instalarlo así:
+
+pkg install nano
+
+para ver la versión de nano ponga:
+
+nano --version
+
+EDITAR TEXTO CON NANO
+Para editar ejm el archivo de configuración de las credenciales de git, ponga
+
+nano ~/.git-credentials
+
+para editar texto es muy sencillo, solo tiene k ubicarse en la posicion adecuada con las flechas de Termux y comenzar a escribir (o pegar) texto
+
+PARA GUARDAR CAMBIOS.- Nano abrevia CTRL con ^, así CTRL + O es igual a:
+
+^O
+
+y en nano aparece así:
+
+^O Guardar
+
+así, para guardar aplaste:
+
+CTRL + O
+
+y aparecerá un mensaje que dice algo así:
+
+Nombre del fichero a escribir: nombre-del-archivo.txt
+
+y de ENTER
+
+Nota: Es importante hacer notar que es la letra O, no es cero
+
+CÓMO SALIR DE NANO.-  Aplaste CTRL + X para salir, pues Nano abrevia CTRL con ^, así CTRL + X es igual a: ^X que es para Salir
+(Nota: Si Ud está escribiendo algo y ha aplastado CTRL + O la opción CTRL + X no estará disponible hasta que Ud de ENTER) y saldrá de nano
+
+Al hacer eso aparecerá en medio de Termux:
+
+File Name to Write:<tconfig
+
+Esa es la abreviatura del archivo: .gitconfig, Ud no cambie nada y solo de ENTER (Si Ud cambia el nombre y da ENTER se creará otro archivo conteniendo lo k haya editado).
+
+Cómo salir de nano.- Aplaste CTRL + X (Nota: Si Ud está escribiendo algo y ha aplastado CTRL + O la opción CTRL + X no estará disponible hasta k Ud de ENTER)
+
+-----
+
+MODIFICAR GITCONFIG CON VI
+Instalarlo así:
+
+pkg install vim
+
+Para editar el archivo de configuración de git ponga:
+
+vi ~/.gitconfig
+
+Advertencia, debe tener cuidado de no borrar algo del código pues si lo hace se le dañará git. Si eso llegará a pasar ponga:
+
+rm ~/.gitconfig
+
+y vuelva a identificarse
+
+Editando.- Una vez k aparece el entorno del editor Vi estaremos por defecto en el modo de comando, y si queremos editar accionemos una vez el botón:
+
+i
+
+al hacerlo se cambiará al modo de edición y edite.
+Una vez k ya no quiera seguir editando aplaste:
+
+ESC
+
+k es para cambiar al modo de comandos.
+
+Para guardar presione
+
+:w
+
+Nota: Esa w significa write = escribir
+
+y presione:
+
+ENTER
+
+Para dejar de escribir o salir de Vi, use el comando
+
+:q
+
+y presione ENTER
+
+Para guardar un archivo y salir de Vi simultáneamente, use el comando
+
+:wq
+
+y presione ENTER
+
+o el comando
+
+:x
+
+------
+
+PARA MOVERSE A LA IZQUIERDA O DERECHA EN Vi y Nano
+En Termux en las versiones modernas ya se incluyen flechas para moverse, pero también se puede teniendo aplastado el botón para subir el volumen y las teclas, para:
+
+Moverse a la Izquierda
+Volumen Arriba + A
+
+o para:
+
+Moverse a la derecha
+Volumen Arriba + D
+
+------
+
+GIT MERGE
+Necesitará usar Nano o Vi dentro de Termux para poder hacer un Merge.
+
+------
+
+COMO ACTUALIZAR EL TOKEN
+Si Ud ejem le puso expiración de 90 días tendrá que generar otro token y reemplazar el anterior, porque le saldrá este error si hace push, fetch u otro comando:
+
+$ git fetch
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/wachin/wid2/'
+/sdcard/wid2 $
+
+hasta k Ud no lo cambie, para cambiarlo ponga:
+
+nano ~/.git-credentials
+
+y arreglar la siguiente línea:
+
+https://usuario:ghp_yjikgsrtG3hjkrt4uihfhjk6G7KvhW8werOHKGRY@github.com
+
+Cambie usuario por su usuario, cambie el token por su token, guarde el cambio y salga, y vuelva a hacer lo k estaba haciendo y funcionará.
+
+------
+
+ERROR
+Es posible k le ska este error algún día:
+
+list --upgradable' to see them.
+E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem.
+
+Ponga:
+
+dpkg --configure -a
+
+ERROR
+.0) but it is not installed
+E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
+
+Ponga:
+
+apt --fix-broken install
+
+
+
+Att. Washington Indacochea Delgado
+wachin.id@gmail.com
+2024
+
+Dios les bendiga
+
+CONSULTAS
+
+Termux Setup Storage
+https://wiki.termux.com/wiki/Termux-setup-storage
+
+How to exit vi editor in Termux
+https://whys.video/12605_fdroid_termux/684819_How_do_I_exit_vi_editor_in_Termux
+
+Vi
+https://en.m.wikipedia.org/wiki/Vi
+
+How to change working directory in Termux
+https://bit.ly/36sFQuI
+
+Cómo cambiar el directorio de trabajo en Termux
+https://stackoverflow.com/a/68806210
+
+How to Fix Git Always Asking For User Credentials For HTTP(S) Authentication
+https://bit.ly/3qBS5vS
+Imagen:
+https://bit.ly/3urispG
+
+'CANNOT LINK EXECUTABLE "node": library "libcrypto.so.3" not found
+https://stackoverflow.com/questions/71337612/cannot-link-executable-node-library-libcrypto-so-3-not-found
