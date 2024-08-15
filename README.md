@@ -1,8 +1,6 @@
-Ciertamente, convertiré el texto a formato markdown. Aquí está el resultado:
-
 # Tutorial: Uso de Git en Termux para Android
 
-## Fecha: 2024-08-12
+**Fecha: 2024-08-12**
 
 Termux es un emulador de terminal y entorno Linux para Android que permite instalar y usar git como lo haríamos desde una terminal de Linux. También se pueden instalar otros programas como yt-dlp (para descargar videos de YouTube), nnn (Administrador de Archivos), y otros que se puedan usar desde la terminal.
 
