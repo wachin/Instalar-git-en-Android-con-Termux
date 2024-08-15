@@ -18,7 +18,8 @@ Ejemplo: He creado un cancionero con acordes de guitarra para usarlo desde el ce
 
 [https://github.com/wachin/Cancionero](https://github.com/wachin/Cancionero)
 
-Nota: Con la app de GitHub de Microsoft en la Play Store no se puede hacer todo lo que se puede hacer con git desde la terminal de Termux.
+> Nota: Con la app de GitHub de Microsoft en la Play Store no se puede hacer todo lo que se puede hacer con git desde la terminal de Termux.
+>
 
 ### Pros
 - Archivos offline en el celular
@@ -31,14 +32,14 @@ Nota: Con la app de GitHub de Microsoft en la Play Store no se puede hacer todo 
 
 ### Requerimientos
 - Teléfono con Android
-- Repositorio en github.com
+- Repositorio en github.com o gitlab.com
 
 ### Archivos usables
 Se pueden usar archivos para control de versiones como: .txt, .md, u otros.
 
 En los archivos compatibles con control de versiones solo se aumentará el tamaño del archivo donde se edite y agregue información.
 
-Nota: LibreOffice tiene un archivo para control de versiones: .fodt
+Como dato importante LibreOffice tiene un archivo para control de versiones: .fodt
 [https://facilitarelsoftwarelibre.blogspot.com/2020/06/que-es-un-archivo-fodt-fodt-flat-open.html](https://facilitarelsoftwarelibre.blogspot.com/2020/06/que-es-un-archivo-fodt-fodt-flat-open.html)
 pero para este no hay un editor en la Play Store.
 
@@ -49,7 +50,8 @@ pero para este no hay un editor en la Play Store.
   - Android a Windows y viceversa
   - Android a MAC y viceversa
 
-Nota: Los 2 últimos no los he probado, pero sé que existen.
+> Nota: Los 2 últimos no los he probado, pero sé que existen.
+>
 
 ## Compatibilidad entre Android y Linux
 
@@ -123,7 +125,7 @@ F-Droid es un repositorio de aplicaciones de software libre para dispositivos An
 
 Descargue e instale F-Droid, luego busque "Termux Emulador de terminal con paquetes" e instálelo.
 
-Nota: También se puede instalar directamente el APK de Termux desde:
+**Nota:** También se puede instalar directamente el APK de Termux desde:
 [https://f-droid.org/en/packages/com.termux/](https://f-droid.org/en/packages/com.termux/)
 
 O también se puede instalar desde GitHub (descargue el Universal):
@@ -142,12 +144,12 @@ Vea las instrucciones en el siguiente enlace:
 
 Aunque podría ya no servir para nadie, pero lo dejo como consulta.
 
-### Desactivar el proceso fantasma en Android para que funcione correctamente Termux
+## Desactivar el proceso fantasma en Android para que funcione correctamente Termux
 
 Es posible que en algunos celulares haya que hacer esto:
 [https://youtu.be/w10I_3-Qaqw?si=VxFhe7d68SVst3QB](https://youtu.be/w10I_3-Qaqw?si=VxFhe7d68SVst3QB)
 
-Nota: En este celular Xiaomi Redmi Note 11 no es necesario hacerlo.
+> **Nota:** En este celular Xiaomi Redmi Note 11 no es necesario hacerlo.
 
 ## Crear y usar un token como contraseña
 
@@ -169,11 +171,11 @@ Allí haga clic en:
 O también directamente en la dirección:
 [https://github.com/settings/tokens](https://github.com/settings/tokens)
 
-Allí en "Note" póngale algún nombre.
+Allí en "**Note**" póngale algún nombre.
 
-En "Expiration" seleccione un tiempo de expiración (Github aconseja poner un tiempo de expiración: [https://bit.ly/3BrIvA9](https://bit.ly/3BrIvA9))
+En "**Expiration**" seleccione un tiempo de expiración (Github aconseja poner un tiempo de expiración: [https://bit.ly/3BrIvA9](https://bit.ly/3BrIvA9))
 
-En "Select scopes" marque "repo" (pero si necesita algún otro permiso márquelo) y al final de la página haga clic en "Generate token".
+En "**Select scopes**" marque "**repo**" (pero si necesita algún otro permiso márquelo) y al final de la página haga clic en "**Generate token**".
 
 Copie inmediatamente el código generado y téngalo en un lugar seguro o en un gestor de contraseñas.
 
@@ -308,13 +310,11 @@ y cuando le pregunte por su Usuario póngalo, y cuando le pregunte por el Passwo
 
 Se creará el archivo:
 
-```
 .git-credentials
-```
 
 dentro del HOME que Termux emula, archivo que contendrá el Token.
 
-Nota: Si luego desean usar otro usuario deben ingresarlo y se cambiará, y si desean regresar al anterior deben ingresarlo otra vez, es decir, siempre estará activo el último usuario ingresado (Nota: Este tutorial también admite gitlab)
+> **Nota:** Si luego desean usar otro usuario deben ingresarlo y se cambiará, y si desean regresar al anterior deben ingresarlo otra vez, es decir, siempre estará activo el último usuario ingresado.
 
 Y con eso ya podemos hacer:
 
@@ -324,12 +324,18 @@ git status, push, fetch, merge, pull, etc
 
 Ahora, haga otro cambio en algún archivo, y haga otra vez: add, commit y push, y ya no le pedirá otra vez el token (si ha seguido estos pasos en el orden indicado).
 
-## Cómo editar y agregar texto en Nano
+# Usando editores de texto para terminal como Nano o Vi
 
 Usando Termux llegará el momento que tenga que usar algún editor de texto de línea de comandos como "Nano" que me vino instalado en el Termux de "Mi Picks" de Xiaomi, pero si no está instalado, instálelo así:
 
 ```bash
 pkg install nano
+```
+
+o si usa vi
+
+```
+pkg install vim
 ```
 
 Para ver la versión de nano escriba:
@@ -338,7 +344,31 @@ Para ver la versión de nano escriba:
 nano --version
 ```
 
-### Editar texto con Nano
+o para vim
+
+```
+vi --version
+```
+
+## Cómo poner por defecto a nano u otro editor de terminal
+
+Si por un caso instalan otro editor de texto de terminal y luego nano u otro que usen ya no es el editor por defecto, vuelvanlo a poner poniendo:
+
+```
+sudo update-alternatives --config editor
+```
+
+allí aparecerá la lista de los editores instalados para uno poder elegir el que estará por defecto, dependiendo de los que estén instalados, ejem si son tres se mostrará:
+
+0  
+
+1  
+
+2  
+
+y debe escribir el número que corresponda y de Enter.
+
+## Editar texto con Nano
 
 Para editar, por ejemplo, el archivo de configuración de las credenciales de git, escriba:
 
@@ -350,21 +380,19 @@ Para editar texto es muy sencillo, solo tiene que ubicarse en la posición adecu
 
 Para guardar cambios: Nano abrevia CTRL con ^, así CTRL + O es igual a:
 
-```
+
 ^O
-```
+
 
 y en nano aparece así:
 
-```
 ^O Guardar
-```
 
 Así, para guardar presione:
 
-```
+
 CTRL + O
-```
+
 
 y aparecerá un mensaje que dice algo así:
 
@@ -374,9 +402,12 @@ Nombre del fichero a escribir: nombre-del-archivo.txt
 
 y presione ENTER.
 
-Nota: Es importante hacer notar que es la letra O, no es cero.
+> Nota: Es importante hacer notar que es la letra O, no es cero.
+>
 
-Cómo salir de Nano: Presione CTRL + X para salir, pues Nano abrevia CTRL con ^, así CTRL + X es igual a: ^X que es para Salir.
+### Cómo salir de Nano: 
+
+Presione CTRL + X para salir, pues Nano abrevia CTRL con ^, así CTRL + X es igual a: ^X que es para Salir.
 (Nota: Si usted está escribiendo algo y ha presionado CTRL + O la opción CTRL + X no estará disponible hasta que usted presione ENTER) y saldrá de nano.
 
 Al hacer eso aparecerá en medio de Termux:
@@ -389,11 +420,7 @@ Esa es la abreviatura del archivo: .gitconfig. Usted no cambie nada y solo presi
 
 ## Modificar gitconfig con Vi
 
-Instálelo así:
-
-```bash
-pkg install vim
-```
+Para usar Vi ejemplo para editar el archivo .gitconfig
 
 Para editar el archivo de configuración de git escriba:
 
@@ -409,18 +436,18 @@ rm ~/.gitconfig
 
 y vuelva a identificarse.
 
-Editando: Una vez que aparece el entorno del editor Vi estaremos por defecto en el modo de comando, y si queremos editar presionemos una vez el botón:
+Editando: Una vez que aparece el entorno del editor Vi estaremos por defecto en el modo de comando, y si queremos editar presionemos una vez la tecla:
 
-```
+
 i
-```
+
 
 al hacerlo se cambiará al modo de edición y edite.
 Una vez que ya no quiera seguir editando presione:
 
-```
+
 ESC
-```
+
 
 que es para cambiar al modo de comandos.
 
@@ -430,13 +457,13 @@ Para guardar presione:
 :w
 ```
 
-Nota: Esa w significa write = escribir
+> **Nota:** Esa w significa write = escribir
 
 y presione:
 
-```
+
 ENTER
-```
+
 
 Para dejar de escribir o salir de Vi, use el comando:
 
@@ -472,11 +499,11 @@ o para:
 Moverse a la derecha:
 Volumen Arriba + D
 
-## Git Merge
+# Git Merge
 
 Necesitará usar Nano o Vi dentro de Termux para poder hacer un Merge.
 
-## Cómo actualizar el Token
+# Cómo actualizar el Token
 
 Si usted, por ejemplo, le puso expiración de 90 días tendrá que generar otro token y reemplazar el anterior, porque le saldrá este error si hace push, fetch u otro comando:
 
@@ -501,7 +528,7 @@ https://usuario:ghp_yjikgsrtG3hjkrt4uihfhjk6G7KvhW8werOHKGRY@github.com
 
 Cambie usuario por su usuario, cambie el token por su token, guarde el cambio y salga, y vuelva a hacer lo que estaba haciendo y funcionará.
 
-## Errores comunes
+# Errores comunes
 
 ### Error 1
 
@@ -539,7 +566,7 @@ wachin.id@gmail.com
 
 Dios les bendiga
 
-## Consultas
+# Consultas
 
 - [Termux Setup Storage](https://wiki.termux.com/wiki/Termux-setup-storage)
 - [How to exit vi editor in Termux](https://whys.video/12605_fdroid_termux/684819_How_do_I_exit_vi_editor_in_Termux)
