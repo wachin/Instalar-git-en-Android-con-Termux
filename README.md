@@ -76,7 +76,7 @@ Busque "Termux", instálelo y ábralo.
 
 Si solo va a usar git en Termux, se le facilita todo. Solo ponga:
 
-```bash
+```
 pkg update
 ```
 
@@ -105,13 +105,13 @@ y presione ENTER. Esté atento porque luego le volverá a preguntar, hay que pon
 
 Ahora instale git con:
 
-```bash
+```
 pkg install git
 ```
 
 Para que Termux tenga acceso a su almacenamiento interno, escriba:
 
-```bash
+```
 termux-setup-storage
 ```
 
@@ -183,13 +183,13 @@ Copie inmediatamente el código generado y téngalo en un lugar seguro o en un g
 
 Para clonar un repositorio en la memoria interna primero hay que llegar allí. En Termux escriba:
 
-```bash
+```
 cd storage
 ```
 
 Luego escriba:
 
-```bash
+```
 ls
 ```
 
@@ -197,7 +197,7 @@ para ver los repositorios disponibles.
 
 Luego elija la memoria compartida:
 
-```bash
+```
 cd shared
 ```
 
