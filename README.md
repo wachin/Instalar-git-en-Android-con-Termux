@@ -1,6 +1,6 @@
 # Tutorial: Uso de Git en Termux para Android
 
-**Fecha: 2024-08-12**
+**Fecha: 2024-08-25**
 
 Termux es un emulador de terminal y entorno Linux para Android que permite instalar y usar git como lo haríamos desde una terminal de Linux. También se pueden instalar otros programas como yt-dlp (para descargar videos de YouTube), nnn (Administrador de Archivos), y otros que se puedan usar desde la terminal.
 
@@ -14,7 +14,7 @@ En Linux (MX Linux 21) estoy usando git como un tipo de almacenamiento en la nub
 
 Esto mismo se puede hacer con git desde un celular Android usando Termux para tener archivos offline.
 
-Ejemplo: He creado un cancionero con acordes de guitarra para usarlo desde el celular con Android y desde el ordenador con Linux:
+**Ejemplo:** He creado un cancionero con acordes de guitarra para usarlo desde el celular con Android y desde el ordenador con Linux:
 
 [https://github.com/wachin/Cancionero](https://github.com/wachin/Cancionero)
 
@@ -61,9 +61,13 @@ Este tutorial no pretende enseñar a usar git. Si no sabe usarlo, puede buscar e
 
 ## Instalando Termux y git en Android 7, 8, 9, 10, 11, 12, 13, 14+
 
-Le dejo 2 opciones:
+Le dejo 3 opciones:
 
 ### 1ra Opción: Instalación con Xiaomi
+
+En el Samsung Galaxy A15 está en el Google Play una versión de Termux actualizada dice allí en la información del App en la misma Google Play a la fecha 2024 en la que se puede instalar Termux y allí git, pero no se puede instalar yt-dlp pues no existe ese paquete, y puede que no se puedan instalar más cosas, pero si solo van a instalar git bien lo pueden usar. (a mi me parece que es una versión con paquetes limitados de Termux)
+
+### 2da Opción: Instalación con Xiaomi
 
 Si tiene un celular Xiaomi, busque en la tienda de aplicaciones:
 
