@@ -143,9 +143,11 @@ Puede descargar sólo el APK de Termux desde:
 
 ### 5ta Opción desde el repositorio del desarrollador en GitHub
 
-Descargue el Universal:
+Descargue el archivo Universal:
 
 [https://github.com/termux/termux-app/releases](https://github.com/termux/termux-app/releases)
+
+. . . debug_universal.apk
 
 Después de instalar Termux, ábralo y siga los pasos mencionados en la primera opción para instalar git.
 
