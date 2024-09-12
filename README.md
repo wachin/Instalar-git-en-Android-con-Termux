@@ -61,11 +61,15 @@ Este tutorial no pretende enseñar a usar git. Si no sabe usarlo, puede buscar e
 
 ## Instalando Termux y git en Android 7, 8, 9, 10, 11, 12, 13, 14+
 
-Le dejo 3 opciones:
+Le dejo 5 opciones:
 
-### 1ra Opción: Instalación con Xiaomi
+### 1ra Opción: Instalación con Google Play Store
 
 En el Samsung Galaxy A15 está en el Google Play una versión de Termux actualizada dice allí en la información del App en la misma Google Play a la fecha 2024 en la que se puede instalar Termux y allí git, pero no se puede instalar yt-dlp pues no existe ese paquete, y puede que no se puedan instalar más cosas, pero si solo van a instalar git bien lo pueden usar. (a mi me parece que es una versión con paquetes limitados de Termux)
+
+También ela:
+
+[https://github.com/termux/termux-app](https://github.com/termux/termux-app)
 
 ### 2da Opción: Instalación con Xiaomi
 
@@ -121,18 +125,26 @@ termux-setup-storage
 
 y presione Enter y acepte.
 
-### 2da Opción: F-Droid
+### 3ra Opción: F-Droid
 
-Si tiene, por ejemplo, un Samsung, según [https://github.com/termux/termux-app](https://github.com/termux/termux-app), la versión de Termux en la Play Store está obsoleta. La solución es ir a [https://f-droid.org/](https://f-droid.org/).
+Entre en:
+
+[https://f-droid.org/](https://f-droid.org/).
 
 F-Droid es un repositorio de aplicaciones de software libre para dispositivos Android. Funciona como una alternativa a Google Play Store, proporcionando aplicaciones que son de código abierto y, en muchos casos, centradas en la privacidad.
 
 Descargue e instale F-Droid, luego busque "Termux Emulador de terminal con paquetes" e instálelo.
 
-**Nota:** También se puede instalar directamente el APK de Termux desde:
+### 4ta Opción: Paquete apk desde F-Droid
+
+Puede descargar sólo el APK de Termux desde:
+
 [https://f-droid.org/en/packages/com.termux/](https://f-droid.org/en/packages/com.termux/)
 
-O también se puede instalar desde GitHub (descargue el Universal):
+### 5ta Opción desde el repositorio del desarrollador en GitHub
+
+Descargue el Universal:
+
 [https://github.com/termux/termux-app/releases](https://github.com/termux/termux-app/releases)
 
 Después de instalar Termux, ábralo y siga los pasos mencionados en la primera opción para instalar git.
