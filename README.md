@@ -521,7 +521,9 @@ Volumen Arriba + D
 
 # Git Merge
 
-Necesitará usar Nano o Vi dentro de Termux para poder hacer un Merge.
+Necesitará usar Nano o Vi dentro de Termux para poder hacer un Merge. También puedes revisar el siguiente tutorial:
+
+[git resolver conflictos](https://github.com/wachin/Facilitar-el-Software-Libre/blob/56be49ffd2b6713fdf12c23feac45dc82ac012bb/Tutoriales/Git/Como%20resolver%20conflictos%20con%20merge/git%20resolver%20conflictos.md)
 
 # Cómo actualizar el Token
 
