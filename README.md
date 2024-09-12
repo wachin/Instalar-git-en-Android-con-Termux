@@ -299,14 +299,16 @@ Solucionado (eso deberá hacerlo en cada Repositorio)
 
 Ahora en algún administrador de archivos de Android edite algún archivo.
 
-Recomiendo:
+Puede ser con:
 
 - [CodeFusion: Code Editor | Para texto](https://play.google.com/store/apps/details?id=com.alif.editor.code)
 - [WPS Office | Para Word](https://play.google.com/store/apps/details?id=cn.wps.moffice_eng)
 
-O algún otro archivo suyo.
+sea como sea edite un archivo de su repositorio.
 
-O si desea, si usted sabe cómo, edite algún archivo desde la línea de comandos de Termux con nano o vi. Sea como sea, añada el cambio que ha hecho:
+Alternativamente puede usar un editor de texto de línea de comandos de Termux con nano o vi.
+
+Sea como sea, luego de editar algún archivo añada el cambio que ha hecho:
 
 ```bash
 git add .
