@@ -49,6 +49,8 @@ pero para este no hay un editor en la Play Store.
   - Android a Linux y viceversa
   - Android a Windows y viceversa
   - Android a MAC y viceversa
+- Se puede usar Obsidian para editar un repositorio de github que también se pueda usar en Linux:
+[Configurar Obsidian Android App para usar Repositorio git compatible con Linux](https://github.com/wachin/Facilitar-el-Software-Libre/blob/main/Tutoriales/Obsidian/Configurar%20Obsidian%20Android%20App%20para%20usar%20un%20repositorio%20compatible%20con%20Linux/Configurar%20Obsidian%20Android%20App%20para%20usar%20Repositorio%20git%20compatible%20con%20Linux.md)
 
 > Nota: Los 2 últimos no los he probado, pero sé que existen.
 >
