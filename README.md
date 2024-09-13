@@ -151,7 +151,7 @@ Descargue el archivo Universal:
 
 . . . debug_universal.apk
 
-Después de instalar Termux, ábralo y siga los pasos mencionados en la primera opción para instalar git.
+e instálelo
 
 ## Zoom en Termux
 
