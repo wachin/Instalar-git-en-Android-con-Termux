@@ -193,7 +193,7 @@ Cuando he instalado Termux desde F-Droid lo siguiente es lo que hago porque quie
 
 **Tutorial probado en:**
 
-- **Termux 0.119.0 en Xiaomi**
+- **Termux 0.119.0 en Xiaomi Redmi Note 11**
 - **Termux 0.118.1 en F-Droid**
 
 **Nota:** Este tutorial lo hago el 15 de Julio del 2024
