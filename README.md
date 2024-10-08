@@ -82,7 +82,7 @@ Si tiene un celular Xiaomi, busque en la tienda de aplicaciones:
 
 Busque "Termux", instálelo y ábralo.
 
-### Actualizar y automáticamente buscar un repositorio y actualizar
+**Actualizar y automáticamente buscar un repositorio y actualizar**
 
 Si solo va a usar git en Termux, se le facilita todo. Solo ponga:
 
@@ -125,7 +125,7 @@ Para que Termux tenga acceso a su almacenamiento interno, escriba:
 termux-setup-storage
 ```
 
-y presione Enter y acepte.
+y presione Enter y acepte. Así lo he usado en un Redmi Xiaomi Note 11 que trae Termux 0.119 (versión que solo ellos tienen a esta hecha que hago el tutorial 2024). Si Ud quisiera elegir un repositorio de los disponibles, más abajo indico cómo.
 
 ### 3ra Opción: F-Droid
 
