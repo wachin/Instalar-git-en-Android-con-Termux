@@ -311,16 +311,10 @@ y
 y luego esté atento y ponga la: "y" varias veces. Y una vez k termine ponga:
 
 ```
-pkg install python ffmpeg -y
+pkg install git
 ```
 
-y luego:
-
-```
-python -m pip install yt-dlp
-```
-
-**Nota**: No use: `pkg upgrade` porque le cambiará el repo y además no es necesario porque aquí en Termux `pkg update` es una especie de híbrido que hace las dos funciones.
+**Nota**: No use: `pkg upgrade` porque empezará a buscar aleatoriamente otro repositorio y además no es necesario porque aquí en Termux `pkg update` es una especie de híbrido que hace las dos funciones.
 
 **Nota**: Si Ud x algún motivo desea usar otra vez el comando: 
 
@@ -328,7 +322,7 @@ python -m pip install yt-dlp
 termux-change-repo
 ```
 
-Le aparecerá así (ahora hay más opciones): 
+Le aparecerá de la siguiente manera (ahora hay más opciones): 
 
 ```
 Do you want to choose a mirror group 
