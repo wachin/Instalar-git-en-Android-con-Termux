@@ -200,6 +200,52 @@ En "**Select scopes**" marque "**repo**" (pero si necesita algún otro permiso m
 Copie inmediatamente el código generado y téngalo en un lugar seguro o en un gestor de contraseñas.
 
 ## Clonar un repositorio
+Repito el proceso anteriormente explicado:
+
+### Actualizar y automáticamente buscar un repositorio y actualizar
+
+Si solo va a usar git en Termux, se le facilita todo. Solo ponga:
+
+```
+pkg update
+```
+
+Aparecerá un mensaje que dice: "Testing the available mirrors:"
+
+También aparecerá un mensaje:
+
+```
+Calculating upgrade... Done
+The following NEW packages will be installed:
+```
+
+Le preguntará:
+
+```
+Do you want to continue? [Y/n]
+```
+
+Responda:
+
+```
+y
+```
+
+y presione ENTER. Esté atento porque luego le volverá a preguntar, hay que poner como 5 veces: y
+
+Ahora instale git con:
+
+```
+pkg install git
+```
+
+Para que Termux tenga acceso a su almacenamiento interno, escriba:
+
+```
+termux-setup-storage
+```
+
+y presione Enter y acepte.
 
 Para clonar un repositorio en la memoria interna primero hay que llegar allí. En Termux escriba:
 
