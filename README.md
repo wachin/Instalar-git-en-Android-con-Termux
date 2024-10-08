@@ -222,47 +222,48 @@ He leído que aconsejan no usar el "Primary host" (worldwide) sino uno de los "M
 
 En la versión de Termux k está en el instalador de los celulares Xiaomi "Mi Picks" he visto k se cargan bastante los siguientes repos:
 
-Grimler (Henrik Grimler https://github.com/grimler91)
+**Grimler** (Henrik Grimler https://github.com/grimler91)
 Alojado en Helsinki, Finlandia.
 Bifurcado desde el nodo principal
 Actualizado cada hora
 https://grimler.se/termux-packages-24
 
-BFSU (Beijing Foreign Studies University)(http://www.bfsu.edu.cn/)(China)
+**BFSU** (Beijing Foreign Studies University)(http://www.bfsu.edu.cn/)(China)
 https://mirrors.bfsu.edu.cn/termux/apt/termux-main
 
-Karibu (karibu@freedif.com)
+**Karibu** (karibu@freedif.com)
 Alojado en Singapore (Asia) 
 Actualizado cada hora
 https://mirror.freedif.org/termux/termux-main
 
-mwt (Matthew W. Thomas | Economist at FTC | Northwestern University Economics PhD https://github.com/mwt)
+**mwt** (Matthew W. Thomas | Economist at FTC | Northwestern University Economics PhD https://github.com/mwt)
 Alojado en la costa este/oeste de EE. UU. y Europa (a través de CDN)
 Actualizado 4 veces al día
 https://mirror.mwt.me/termux/main
 
-Grupo de usuarios de Linux de la Universidad de Purdue
+**Purde** Grupo de usuarios de Linux de la Universidad de Purdue
 Alojado en Indiana, EE. UU.
 Actualizado 4 veces al día https://plug-mirror.rcac.purdue.edu/termux/termux-main
 
-a1batross (https://github.com/a1batross)
+**a1batross** (https://github.com/a1batross)
 Actualizado 4 veces al día https://termux.mentality.rip/termux-main
 
-Librehat (https://github.com/librehat)
+**Librehat** (https://github.com/librehat)
 Actualizado 4 veces al día https://termux.librehat.com/apt/termux-main
 
-Astra ISP (https://astra.in.ua/)(Ucrania) https://termux.astra.in.ua/apt/termux-main
-
-CloudFlare CDN endpoint https://packages-cf.termux.org/apt/termux-main
+**CloudFlare** CDN endpoint https://packages-cf.termux.org/apt/termux-main
 
 
 **CAIDOS**
 Y he visto caídos a:
 
+**sahilister**
 https://termux.sahilister.in/apt/termux-main: bad
 
+**kcubeterm**
 https://dl.kcubeterm.com/termux-main: bad
 
+**Astra**
 https://termux.astra.in.ua/apt/termux-main: bad
 
 # CONSEJO 
