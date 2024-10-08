@@ -185,8 +185,6 @@ Y las siguientes son consultas en español:
 
 según eso la monitorización de los procesos fantasma puede ser desactivada desde las opciones de Configuración > Opciones de desarrollador > Banderas de características.
 
-
-
 ## Eligiendo un repositorio
 
 Cuando he instalado Termux desde F-Droid lo siguiente es lo que hago porque quiero que los paquetes que se descarguen siempre sean los mismos y que no estén unos más actualizados que otros para evitar algún mal funcionamiento debido a que son muchas las dependencias a usar. Esto es, personalmente, lo que yo pienso: usar si está disponible siempre un repositorio, o si se llegara a caer, usar algún otro, pero siempre sabiendo cuál es.
@@ -196,7 +194,7 @@ Cuando he instalado Termux desde F-Droid lo siguiente es lo que hago porque quie
 - **Termux 0.119.0 en Xiaomi Redmi Note 11**
 - **Termux 0.118.1 en F-Droid**
 
-**Nota:** Este tutorial lo hago el 15 de Julio del 2024
+**Nota:** Este tutorial lo hago en 2024 Octubre
 
 ### Seleccionar un Repositorio
 
