@@ -69,7 +69,7 @@ Le dejo 5 opciones:
 
 En el Samsung Galaxy A15 está en el Google Play una versión de Termux actualizada dice allí en la información del App en la misma Google Play a la fecha 2024 en la que se puede instalar Termux y allí git, pero no se puede instalar yt-dlp pues no existe ese paquete, y puede que no se puedan instalar más cosas, pero si solo van a instalar git bien lo pueden usar. (a mi me parece que es una versión con paquetes limitados de Termux)
 
-También ela:
+También lea:
 
 [https://github.com/termux/termux-app](https://github.com/termux/termux-app)
 
