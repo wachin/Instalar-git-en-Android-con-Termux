@@ -165,13 +165,195 @@ Vea las instrucciones en el siguiente enlace:
 Aunque podría ya no servir para nadie, pero lo dejo como consulta.
 
 ## Desactivar el proceso fantasma en Android para que funcione correctamente Termux
+Si algun celular con Android tiene habilitado el proceso fantastama, cerrará algún proceso que se esté ejecutando de fondo, esto puede ser negativo si el usuario a instalado algún Linux en Termux, para desabilitar eso primero hay que habilitar las opciones para desarrollador:
 
-Es posible que en algunos celulares haya que hacer esto:
+**Cómo habilitar las Opciones para desarrolladores**
+[https://developer.android.com/studio/debug/dev-options?hl=es-419](https://developer.android.com/studio/debug/dev-options?hl=es-419)
+
+Dejo un video pero está en inglés:
+
+**Fix Termux Error [Process completed (signal 9) - Disable Phantom Process Killer In Android 12 & 13**
 [https://youtu.be/w10I_3-Qaqw?si=VxFhe7d68SVst3QB](https://youtu.be/w10I_3-Qaqw?si=VxFhe7d68SVst3QB)
 
-> **Nota:** En este celular Xiaomi Redmi Note 11 no es necesario hacerlo.
+Y las siguientes son consultas en español:
 
-## Crear y usar un token como contraseña
+**Android 13 quiere que exprimas al máximo la potencia de tu teléfono. ¿Cómo lo hará?**
+[https://cincodias.elpais.com/smartlife/2021/12/14/lifestyle/1639489577_351730.html](https://cincodias.elpais.com/smartlife/2021/12/14/lifestyle/1639489577_351730.html)
+
+**Android 13 permitirá deshabilitar la estricta gestión de procesos fantasmas de Android 12**
+[https://www.xatakandroid.com/sistema-operativo/android-13-permitira-deshabilitar-estricta-gestion-procesos-fantasmas-android-12](https://www.xatakandroid.com/sistema-operativo/android-13-permitira-deshabilitar-estricta-gestion-procesos-fantasmas-android-12)
+
+según eso la monitorización de los procesos fantasma puede ser desactivada desde las opciones de Configuración > Opciones de desarrollador > Banderas de características.
+
+
+
+## Eligiendo un repositorio
+
+Cuando he instalado Termux desde F-Droid lo siguiente es lo que hago porque quiero que los paquetes que se descarguen siempre sean los mismos y que no estén unos más actualizados que otros para evitar algún mal funcionamiento debido a que son muchas las dependencias a usar. Esto es, personalmente, lo que yo pienso: usar si está disponible siempre un repositorio, o si se llegara a caer, usar algún otro, pero siempre sabiendo cuál es.
+
+**Tutorial probado en:**
+
+- **Termux 0.119.0 en Xiaomi**
+- **Termux 0.118.1 en F-Droid**
+
+**Nota:** Este tutorial lo hago el 15 de Julio del 2024
+
+### Seleccionar un Repositorio
+
+Para elegir un repositorio, poner:
+
+```bash
+termux-change-repo
+```
+
+Cuando es la primera vez que uno usa este comando, aparece así:
+
+```
+Which repositories do you want to edit? Select with space.
+[*] Main repository termux-packages
+│  <  OK  >    <Cancel> │
+```
+
+Solo dar Enter (no es necesario usar las flechas porque solo es una opción).
+
+Aparecerá una lista
+
+He leído que aconsejan no usar el "Primary host" (worldwide) sino uno de los "Mirror", para no congestionar ese servidor de Termux (de ellos. Pero si lo quieren usar, usenlo).
+
+**Repositorios Disponibles**
+
+En la versión de Termux k está en el instalador de los celulares Xiaomi "Mi Picks" he visto k se cargan bastante los siguientes repos:
+
+Grimler (Henrik Grimler https://github.com/grimler91)
+Alojado en Helsinki, Finlandia.
+Bifurcado desde el nodo principal
+Actualizado cada hora
+https://grimler.se/termux-packages-24
+
+BFSU (Beijing Foreign Studies University)(http://www.bfsu.edu.cn/)(China)
+https://mirrors.bfsu.edu.cn/termux/apt/termux-main
+
+Karibu (karibu@freedif.com)
+Alojado en Singapore (Asia) 
+Actualizado cada hora
+https://mirror.freedif.org/termux/termux-main
+
+mwt (Matthew W. Thomas | Economist at FTC | Northwestern University Economics PhD https://github.com/mwt)
+Alojado en la costa este/oeste de EE. UU. y Europa (a través de CDN)
+Actualizado 4 veces al día
+https://mirror.mwt.me/termux/main
+
+Grupo de usuarios de Linux de la Universidad de Purdue
+Alojado en Indiana, EE. UU.
+Actualizado 4 veces al día https://plug-mirror.rcac.purdue.edu/termux/termux-main
+
+a1batross (https://github.com/a1batross)
+Actualizado 4 veces al día https://termux.mentality.rip/termux-main
+
+Librehat (https://github.com/librehat)
+Actualizado 4 veces al día https://termux.librehat.com/apt/termux-main
+
+Astra ISP (https://astra.in.ua/)(Ucrania) https://termux.astra.in.ua/apt/termux-main
+
+CloudFlare CDN endpoint https://packages-cf.termux.org/apt/termux-main
+
+
+**CAIDOS**
+Y he visto caídos a:
+
+https://termux.sahilister.in/apt/termux-main: bad
+
+https://dl.kcubeterm.com/termux-main: bad
+
+https://termux.astra.in.ua/apt/termux-main: bad
+
+# CONSEJO 
+
+Yo uso Grimler, nunca lo he visto caído, tampoco a BFSU (solo es de observar, los que se caen tienen: bad)
+
+La description de los repos las he visto en: 
+
+[Termux Packages Mirrors](https://github.com/termux/termux-packages/wiki/Mirrors)
+
+Para elegir uno, con la flecha hacia abajo diríjase hasta:
+
+```
+( ) Mirrors by Grimler . . . 
+```
+
+o:
+
+```
+( ) Mirrors by BFSU . . . 
+```
+
+O también puede elegir otro.
+
+Ejemplo, voy a seleccionar Grimler, asi que con la flecha abajo me pongo allí y doy barra espaciadora en el teclado para marcarlo, k kede así: 
+
+```
+( * ) Mirrors by Grimler . . .
+```
+
+y Enter
+
+Esperar a que termine, y poner: 
+
+```
+pkg update
+```
+
+Le hará unas preguntas, ponga: 
+
+```
+y
+```
+
+y luego esté atento y ponga la: "y" varias veces. Y una vez k termine ponga:
+
+```
+pkg install python ffmpeg -y
+```
+
+y luego:
+
+```
+python -m pip install yt-dlp
+```
+
+**Nota**: No use: `pkg upgrade` porque le cambiará el repo y además no es necesario porque aquí en Termux `pkg update` es una especie de híbrido que hace las dos funciones.
+
+**Nota**: Si Ud x algún motivo desea usar otra vez el comando: 
+
+```
+termux-change-repo
+```
+
+Le aparecerá así (ahora hay más opciones): 
+
+```
+Do you want to choose a mirror group 
+│ or a single mirror? Select with space. 
+│ │(*) Mirror grRotate between several
+│ │( ) Single miChoose a single mirror │ 
+│         <  OK  >     <Cancel>
+```
+
+Elija la 2da opción k es para escoger manualmente un repo (la 1er opción buscará automáticamente entre todos alguno). De Enter, espere
+
+```
+pkg update
+```
+Esta opción le aconsejo usarla con alguna frecuencia, puede ser cada mes. Es para tener actualizados los parquetes
+
+Para ver la versión k tiene instalada de git  ponga en Termux:
+
+```
+git --version
+```
+
+
+## Crear y usar un token como contraseña en github.com
 
 (Si ya tiene el token omita este paso)
 
@@ -199,39 +381,18 @@ En "**Select scopes**" marque "**repo**" (pero si necesita algún otro permiso m
 
 Copie inmediatamente el código generado y téngalo en un lugar seguro o en un gestor de contraseñas.
 
-## Clonar un repositorio
-Repito el proceso anteriormente explicado:
 
-### Actualizar y automáticamente buscar un repositorio y actualizar
 
-Si solo va a usar git en Termux, se le facilita todo. Solo ponga:
 
-```
-pkg update
-```
 
-Aparecerá un mensaje que dice: "Testing the available mirrors:"
 
-También aparecerá un mensaje:
 
-```
-Calculating upgrade... Done
-The following NEW packages will be installed:
-```
 
-Le preguntará:
 
-```
-Do you want to continue? [Y/n]
-```
 
-Responda:
 
-```
-y
-```
 
-y presione ENTER. Esté atento porque luego le volverá a preguntar, hay que poner como 5 veces: y
+### Instalar git
 
 Ahora instale git con:
 
@@ -294,6 +455,9 @@ y si ya está en la memoria interna aparece:
 ```
 /sdcard $
 ```
+
+
+### Clonar un repositorio
 
 Una vez que esté en el Almacenamiento Interno Compartido (llamado shared o /sdcard) clone un Repositorio, por ejemplo:
 
