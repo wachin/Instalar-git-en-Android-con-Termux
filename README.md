@@ -67,7 +67,7 @@ Le dejo 5 opciones:
 
 ### 1ra Opción: Instalación con Google Play Store
 
-En el Samsung Galaxy A15 está en el Google Play una versión de Termux actualizada dice allí en la información del App en la misma Google Play a la fecha 2024 en la que se puede instalar Termux y allí git, pero no se puede instalar yt-dlp pues no existe ese paquete, y puede que no se puedan instalar más cosas, pero si solo van a instalar git bien lo pueden usar. (a mi me parece que es una versión con paquetes limitados de Termux)
+En la Play Store hay una versión de Termux actualizada que dice allí en la información del App en la misma Google Play a la fecha 2024 en la que se puede instalar Termux y allí git, la cuál la probé pero no se puede instalar yt-dlp pues no existe ese paquete, y puede que no se puedan instalar más cosas, pero si solo van a instalar git bien lo pueden usar, también si no desean instalar Apps de otros sitios estará bien para ustedes (a mi me parece que es una versión con paquetes limitados de Termux).
 
 También lea:
 
@@ -125,7 +125,9 @@ Para que Termux tenga acceso a su almacenamiento interno, escriba:
 termux-setup-storage
 ```
 
-y presione Enter y acepte. Así lo he usado en un Redmi Xiaomi Note 11 que trae Termux 0.119 (versión que solo ellos tienen a esta hecha que hago el tutorial 2024). Si Ud quisiera elegir un repositorio de los disponibles, más abajo indico cómo.
+y presione Enter y acepte. Así lo he usado en un Redmi Xiaomi Note 11 que trae Termux 0.119 (versión que solo ellos tienen a esta hecha que hago el tutorial 2024). 
+
+Aparte, si Ud quisiera elegir un repositorio de los disponibles, más abajo indico cómo.
 
 ### 3ra Opción: F-Droid
 
@@ -135,13 +137,29 @@ Entre en:
 
 F-Droid es un repositorio de aplicaciones de software libre para dispositivos Android. Funciona como una alternativa a Google Play Store, proporcionando aplicaciones que son de código abierto y, en muchos casos, centradas en la privacidad.
 
-Descargue e instale F-Droid, luego busque "Termux Emulador de terminal con paquetes" e instálelo.
+Descargue e instale F-Droid
+
+Y para que ustedes tengan tranquilidad, carguen el Apk descargada a:
+
+virustotal.com
+
+está limpia, instalar 
+
+luego abra F-Droid y en la lupa verde que está abajo a la izquierda busque: "Termux Emulador de terminal con paquetes" e instálelo.
 
 ### 4ta Opción: Paquete apk desde F-Droid
 
 Puede descargar sólo el APK de Termux desde:
 
 [https://f-droid.org/en/packages/com.termux/](https://f-droid.org/en/packages/com.termux/)
+
+Y para que ustedes tengan tranquilidad, carguen el Apk descargada a:
+
+virustotal.com
+
+está limpia
+
+e instalarla
 
 ### 5ta Opción desde el repositorio del desarrollador en GitHub
 
@@ -151,7 +169,15 @@ Descargue el archivo Universal:
 
 . . . debug_universal.apk
 
-e instálelo
+Nota: Si ustedes saben ver cuál es la arquitectura de su Android pueden elegir el paquete correspondiente.
+
+Y para que ustedes tengan tranquilidad, carguen el Apk descargada a:
+
+virustotal.com
+
+está limpia
+
+e instalarla
 
 ## Zoom en Termux
 
@@ -165,12 +191,12 @@ Vea las instrucciones en el siguiente enlace:
 Aunque podría ya no servir para nadie, pero lo dejo como consulta.
 
 ## Desactivar el proceso fantasma en Android para que funcione correctamente Termux
-Si algun celular con Android tiene habilitado el proceso fantastama, cerrará algún proceso que se esté ejecutando de fondo, esto puede ser negativo si el usuario a instalado algún Linux en Termux, para desabilitar eso primero hay que habilitar las opciones para desarrollador:
+Si algun celular con Android tiene habilitado el proceso fantastama, cerrará algún proceso que se esté ejecutando de fondo, esto puede ser negativo si el usuario a instalado algún Linux en Termux, o alguna aplicación que necesite estar funcionando de fondo; para desabilitar eso primero hay que habilitar las opciones para desarrollador:
 
 **Cómo habilitar las Opciones para desarrolladores**
 [https://developer.android.com/studio/debug/dev-options?hl=es-419](https://developer.android.com/studio/debug/dev-options?hl=es-419)
 
-Dejo un video pero está en inglés:
+y dejo un video pero está en inglés sobre cómo desabilitar el proceso fantasma:
 
 **Fix Termux Error [Process completed (signal 9) - Disable Phantom Process Killer In Android 12 & 13**
 [https://youtu.be/w10I_3-Qaqw?si=VxFhe7d68SVst3QB](https://youtu.be/w10I_3-Qaqw?si=VxFhe7d68SVst3QB)
@@ -187,7 +213,7 @@ según eso la monitorización de los procesos fantasma puede ser desactivada des
 
 ## Eligiendo un repositorio
 
-Cuando he instalado Termux desde F-Droid lo siguiente es lo que hago porque quiero que los paquetes que se descarguen siempre sean los mismos y que no estén unos más actualizados que otros para evitar algún mal funcionamiento debido a que son muchas las dependencias a usar. Esto es, personalmente, lo que yo pienso: usar si está disponible siempre un repositorio, o si se llegara a caer, usar algún otro, pero siempre sabiendo cuál es.
+Cuando he instalado Termux desde F-Droid lo siguiente es lo que hago porque quiero que los paquetes que se descarguen siempre sean los mismos y que no estén unos más actualizados que otros para evitar algún mal funcionamiento debido a que son muchas las dependencias a usar. Esto es, personalmente, lo que yo pienso: Usar si está disponible siempre un repositorio, o si se llegara a caer, usar algún otro, pero siempre sabiendo cuál es.
 
 **Tutorial probado en:**
 
