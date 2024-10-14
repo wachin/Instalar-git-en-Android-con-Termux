@@ -80,7 +80,7 @@ Si tiene un celular Xiaomi, busque en la tienda de aplicaciones:
 - Mi Picks
 - o GetApps
 
-Busque "Termux", instálelo y ábralo.
+Busque "Termux", instálelo. Ellos tienen a la fecha 2024 la versión Termux 0.119, instalelo y ábralo.
 
 **Actualizar y automáticamente buscar un repositorio y actualizar**
 
@@ -89,6 +89,8 @@ Si solo va a usar git en Termux, se le facilita todo. Solo ponga:
 ```
 pkg update
 ```
+
+>Nota: En la versión 0.119 no es necesario usar `pkg ugrade` porque `pkg update` es una especie de híbrido que hace las dos cosas
 
 Aparecerá un mensaje que dice: "Testing the available mirrors:"
 
@@ -118,6 +120,8 @@ Ahora instale git con:
 ```
 pkg install git
 ```
+
+Además les
 
 Para que Termux tenga acceso a su almacenamiento interno, escriba:
 
@@ -230,7 +234,9 @@ Para elegir un repositorio, poner:
 termux-change-repo
 ```
 
-Cuando es la primera vez que uno usa este comando, aparece así:
+>Nota: Las siguientes indicaciones las he visto así a la hecha 2024, pero con nuevas versiones que salgan en el futuro puede que varíen, pero el principio es el mismo, siempre lean (está en inglés) las instrucciones con atención, y son dos, la una es que el programa elija entre todos los repositorios uno disponible, y la otra es que ustedes elijan uno (que es lo que yo hago).
+
+Cuando es la primera vez que uno usa este comando en Termux 0.119, aparece así:
 
 ```
 Which repositories do you want to edit? Select with space.
@@ -238,9 +244,10 @@ Which repositories do you want to edit? Select with space.
 │  <  OK  >    <Cancel> │
 ```
 
-Solo dar Enter (no es necesario usar las flechas porque solo es una opción).
+Solo dar Enter (no es necesario seleccionar otra opción porque solo hay una).
 
-sino aparece así, sino así: 
+Si es la segunda vez (estas opciones pueden variar de una versión a otra de Termux) que hacen este proceso puede que les aparezca así: 
+
 ```
 Do you want to choose a mirror group  
 │ or a single mirror? Select with space.
@@ -249,15 +256,15 @@ Do you want to choose a mirror group
 │         <  OK  >     <Cancel>
 ```
 
-de clic en la segunda opción para que esa que marcada: 
+en este caso haga clic en la segunda opción para que esa que marcada: 
 
 (*) Single miChoose a single mirror
 
-de clic en ok
+cuya traducción sería: Escoja un solo espejo
 
-Aparecerá una lista, para moverse hacia abajo o arriba usar en termux piscina arriba (PGUP) o página abajo (PGDN)
+y de clic en ok
 
-He leído que aconsejan no usar (en caso de que esté disponible) el "Primary host" (worldwide) sino uno de los "Mirror", para no congestionar ese servidor de Termux (de ellos. Pero si lo quieren usar, usenlo).
+Aparecerá una lista, para moverse hacia abajo o arriba puedan usar en termux Página arriba (PGUP) o Página abajo (PGDN)
 
 **Repositorios Disponibles**
 
