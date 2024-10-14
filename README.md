@@ -255,9 +255,9 @@ de clic en la segunda opción para que esa que marcada:
 
 de clic en ok
 
-Aparecerá una lista
+Aparecerá una lista, para moverse hacia abajo o arriba usar en termux piscina arriba (PGUP) o página abajo (PGDN)
 
-He leído que aconsejan no usar el "Primary host" (worldwide) sino uno de los "Mirror", para no congestionar ese servidor de Termux (de ellos. Pero si lo quieren usar, usenlo).
+He leído que aconsejan no usar (en caso de que esté disponible) el "Primary host" (worldwide) sino uno de los "Mirror", para no congestionar ese servidor de Termux (de ellos. Pero si lo quieren usar, usenlo).
 
 **Repositorios Disponibles**
 
