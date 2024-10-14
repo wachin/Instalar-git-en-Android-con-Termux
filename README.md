@@ -240,6 +240,21 @@ Which repositories do you want to edit? Select with space.
 
 Solo dar Enter (no es necesario usar las flechas porque solo es una opción).
 
+sino aparece así, sino así: 
+```
+Do you want to choose a mirror group  
+│ or a single mirror? Select with space.
+│(*) Mirror grRotate between several │
+│( ) Single miChoose a single mirror┤
+│         <  OK  >     <Cancel>
+```
+
+de clic en la segunda opción para que esa que marcada: 
+
+(*) Single miChoose a single mirror
+
+de clic en ok
+
 Aparecerá una lista
 
 He leído que aconsejan no usar el "Primary host" (worldwide) sino uno de los "Mirror", para no congestionar ese servidor de Termux (de ellos. Pero si lo quieren usar, usenlo).
