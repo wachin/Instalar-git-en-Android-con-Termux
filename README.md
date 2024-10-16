@@ -234,7 +234,7 @@ Para elegir un repositorio, poner:
 termux-change-repo
 ```
 
->Nota: Las siguientes indicaciones las he visto así a la hecha 2024, pero con nuevas versiones que salgan en el futuro puede que varíen, pero el principio es el mismo, siempre lean (está en inglés) las instrucciones con atención, y son dos, la una es que el programa elija entre todos los repositorios uno disponible, y la otra es que ustedes elijan uno (que es lo que yo hago).
+Las siguientes indicaciones las he visto así a la hecha 2024, pero con nuevas versiones que salgan en el futuro puede que varíen, pero el principio es el mismo, siempre lean (está en inglés) las instrucciones con atención, y son dos, la una es que el programa elija entre todos los repositorios uno disponible, y la otra es que ustedes elijan uno (que es lo que yo hago).
 
 Cuando es la primera vez que uno usa este comando en Termux 0.119, aparece así:
 
@@ -362,13 +362,13 @@ Además explico que en la versión de Termux 0.118 después de usar pkg update h
 pkg upgrade
 ```
 
-y luego esté atento y ponga la: "y" varias veces. Y una vez k termine ponga:
+(pero como les explicaba más arriba, en la versión 0,119 de Xiaomi no es necesario porque pkg update es una especie de híbrido que hace las dos cosas) y luego esté atento y ponga la: "y" varias veces. Y una vez k termine ponga:
 
 ```
 pkg install git
 ```
 
-**Nota**: En caso de que `pkg upgrade` les cambie el repositorio usen otra vez `termux-change-repo` porque sino empezará a buscar aleatoriamente otro repositorio.
+cuando ponga este comando vea allí cuál repo aparece, en caso de que se haya cambiado el repo cambielo usando otra vez `termux-change-repo` xq sino empezará a buscar aleatoriamente otro repo
 
 ### Aparecerán más opciones en termux-change-repo después de actualizar
 Si Ud x algún motivo desea usar otra vez el comando: 
@@ -377,22 +377,15 @@ Si Ud x algún motivo desea usar otra vez el comando:
 termux-change-repo
 ```
 
-Le aparecerá de la siguiente manera (ahora hay más opciones): 
-
-```
-Do you want to choose a mirror group 
-│ or a single mirror? Select with space. 
-│ │(*) Mirror grRotate between several
-│ │( ) Single miChoose a single mirror │ 
-│         <  OK  >     <Cancel>
+Le aparecerán más opciones.
 ```
 
-Elija la 2da opción k es para escoger manualmente un repo (la 1er opción buscará automáticamente entre todos alguno). De Enter, espere
+si hacen como yo elijan la opción k es para escoger manualmente uno, y luego:
 
 ```
 pkg update
 ```
-Esta opción le aconsejo usarla con alguna frecuencia, puede ser cada mes. Es para tener actualizados los parquetes
+además, este comando le aconsejo usarlo con alguna frecuencia, puede ser cada mes. Es para tener actualizados los parquetes
 
 Para ver la versión k tiene instalada de git  ponga en Termux:
 
