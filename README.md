@@ -368,9 +368,10 @@ y luego esté atento y ponga la: "y" varias veces. Y una vez k termine ponga:
 pkg install git
 ```
 
-**Nota**: No use: `pkg upgrade` porque empezará a buscar aleatoriamente otro repositorio y además no es necesario porque aquí en Termux `pkg update` es una especie de híbrido que hace las dos funciones.
+**Nota**: En caso de que `pkg upgrade` les cambie el repositorio usen otra vez `termux-change-repo` porque sino empezará a buscar aleatoriamente otro repositorio.
 
-**Nota**: Si Ud x algún motivo desea usar otra vez el comando: 
+**Aparecerán más opciones en termux-change-repo después de actualizar**
+Si Ud x algún motivo desea usar otra vez el comando: 
 
 ```
 termux-change-repo
