@@ -194,23 +194,23 @@ Vea las instrucciones en el siguiente enlace:
 
 Aunque podría ya no servir para nadie, pero lo dejo como consulta.
 
-## Desactivar el proceso fantasma en Android para que funcione correctamente Termux
+## Desactivar el proceso fantasma en Android para que funcione correctamente Termux  
 Si algun celular con Android tiene habilitado el proceso fantastama, cerrará algún proceso que se esté ejecutando de fondo, esto puede ser negativo si el usuario a instalado algún Linux en Termux, o alguna aplicación que necesite estar funcionando de fondo; para desabilitar eso primero hay que habilitar las opciones para desarrollador:
 
-**Cómo habilitar las Opciones para desarrolladores**
+**Cómo habilitar las Opciones para desarrolladores**  
 [https://developer.android.com/studio/debug/dev-options?hl=es-419](https://developer.android.com/studio/debug/dev-options?hl=es-419)
 
 y dejo un video pero está en inglés sobre cómo desabilitar el proceso fantasma:
 
-**Fix Termux Error [Process completed (signal 9) - Disable Phantom Process Killer In Android 12 & 13**
+**Fix Termux Error [Process completed (signal 9) - Disable Phantom Process Killer In Android 12 & 13**  
 [https://youtu.be/w10I_3-Qaqw?si=VxFhe7d68SVst3QB](https://youtu.be/w10I_3-Qaqw?si=VxFhe7d68SVst3QB)
 
 Y las siguientes son consultas en español:
 
-**Android 13 quiere que exprimas al máximo la potencia de tu teléfono. ¿Cómo lo hará?**
+**Android 13 quiere que exprimas al máximo la potencia de tu teléfono. ¿Cómo lo hará?**  
 [https://cincodias.elpais.com/smartlife/2021/12/14/lifestyle/1639489577_351730.html](https://cincodias.elpais.com/smartlife/2021/12/14/lifestyle/1639489577_351730.html)
 
-**Android 13 permitirá deshabilitar la estricta gestión de procesos fantasmas de Android 12**
+**Android 13 permitirá deshabilitar la estricta gestión de procesos fantasmas de Android 12**  
 [https://www.xatakandroid.com/sistema-operativo/android-13-permitira-deshabilitar-estricta-gestion-procesos-fantasmas-android-12](https://www.xatakandroid.com/sistema-operativo/android-13-permitira-deshabilitar-estricta-gestion-procesos-fantasmas-android-12)
 
 según eso la monitorización de los procesos fantasma puede ser desactivada desde las opciones de Configuración > Opciones de desarrollador > Banderas de características.
@@ -219,7 +219,7 @@ según eso la monitorización de los procesos fantasma puede ser desactivada des
 
 Cuando he instalado Termux desde F-Droid lo siguiente es lo que hago porque quiero que los paquetes que se descarguen siempre sean los mismos y que no estén unos más actualizados que otros para evitar algún mal funcionamiento debido a que son muchas las dependencias a usar. Esto es, personalmente, lo que yo pienso: Usar si está disponible siempre un repositorio, o si se llegara a caer, usar algún otro, pero siempre sabiendo cuál es.
 
-**Tutorial probado en:**
+**Tutorial probado en:**  
 
 - **Termux 0.119.0 en Xiaomi Redmi Note 11**
 - **Termux 0.118.1 en F-Droid**
@@ -370,7 +370,7 @@ pkg install git
 
 **Nota**: En caso de que `pkg upgrade` les cambie el repositorio usen otra vez `termux-change-repo` porque sino empezará a buscar aleatoriamente otro repositorio.
 
-**Aparecerán más opciones en termux-change-repo después de actualizar**
+### Aparecerán más opciones en termux-change-repo después de actualizar
 Si Ud x algún motivo desea usar otra vez el comando: 
 
 ```
@@ -428,17 +428,6 @@ En "**Expiration**" seleccione un tiempo de expiración (Github aconseja poner u
 En "**Select scopes**" marque "**repo**" (pero si necesita algún otro permiso márquelo) y al final de la página haga clic en "**Generate token**".
 
 Copie inmediatamente el código generado y téngalo en un lugar seguro o en un gestor de contraseñas.
-
-
-
-
-
-
-
-
-
-
-
 
 ### Instalar git
 
