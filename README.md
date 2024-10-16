@@ -264,7 +264,7 @@ cuya traducción sería: Escoja un solo espejo
 
 y de clic en ok
 
-Aparecerá una lista, para moverse hacia abajo o arriba puedan usar en termux Página arriba (PGUP) o Página abajo (PGDN)
+Aparecerá una lista, para moverse hacia abajo o arriba puedan usar en termux las flechas o Página arriba (PGUP) o Página abajo (PGDN)
 
 **Repositorios Disponibles**
 
@@ -354,6 +354,12 @@ Le hará unas preguntas, ponga:
 
 ```
 y
+```
+
+Además explico que en la versión de Termux 0.118 después de usar pkg update hay que usar: 
+
+```
+pkg upgrade
 ```
 
 y luego esté atento y ponga la: "y" varias veces. Y una vez k termine ponga:
