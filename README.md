@@ -217,7 +217,7 @@ según eso la monitorización de los procesos fantasma puede ser desactivada des
 
 ## Eligiendo un repositorio
 
-Cuando he instalado Termux desde F-Droid lo siguiente es lo que hago porque quiero que los paquetes que se descarguen siempre sean los mismos y que no estén unos más actualizados que otros para evitar algún mal funcionamiento debido a que son muchas las dependencias a usar. Esto es, personalmente, lo que yo pienso: Usar si está disponible siempre un repositorio, o si se llegara a caer, usar algún otro, pero siempre sabiendo cuál es.
+Cuando he instalado Termux desde F-Droid lo siguiente es lo que hago porque quiero que los paquetes que se descarguen siempre sean exactamente los mismos y que no estén unos más actualizados o contengan pequeñas diferencias que otros paquetes, para evitar algún mal funcionamiento, ejemplo, cuando son muchas las dependencias a usar como en programas escritos en python que son bastantes delicados con sus bibliotecas y a veces por un cambio en versiones ya no funcionan. Esto es, personalmente, lo que yo pienso: Usar si está disponible siempre un repositorio, o si se llegara a caer, usar algún otro, pero siempre sabiendo cuál es y que sea de los que nunca o de los que menos se caen.
 
 **Tutorial probado en:**  
 
