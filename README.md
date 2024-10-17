@@ -420,13 +420,7 @@ En "**Select scopes**" marque "**repo**" (pero si necesita algún otro permiso m
 
 Copie inmediatamente el código generado y téngalo en un lugar seguro o en un gestor de contraseñas.
 
-### Instalar git
-
-Ahora instale git con:
-
-```
-pkg install git
-```
+### Acceder al Almacenamiento Interno
 
 Para que Termux tenga acceso a su almacenamiento interno, escriba:
 
@@ -478,8 +472,12 @@ Nota: Si es la primera vez que abre Termux estará en:
 /data/data/com.termux/files/home
 ```
 
-y si ya está en la memoria interna aparece:
+y si ya está en la memoria interna y para llegar allí usó cd shared aparece así:
 
+```
+~/storage/shared $
+```
+y so uso: cd /sdcard así:
 ```
 /sdcard $
 ```
@@ -537,7 +535,12 @@ git config --global --add safe.directory /storage/emulated/0/Cancion
 
 Solucionado (eso deberá hacerlo en cada Repositorio)
 
-Ahora en algún administrador de archivos de Android edite algún archivo.
+Ahora en algún administrador de archivos de Android que permita ver no solo las carpetas del sistema ejemplo: 
+
+**Gratis de archivos | File Managrr Plus**
+https://play.google.com/store/apps/details?id=com.alphainventor.filemanager
+
+edite algún archivo.
 
 Puede ser con:
 
