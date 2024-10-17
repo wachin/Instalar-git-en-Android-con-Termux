@@ -378,7 +378,6 @@ termux-change-repo
 ```
 
 Le aparecerán más opciones.
-```
 
 si hacen como yo elijan la opción k es para escoger manualmente uno, y luego:
 
@@ -392,7 +391,6 @@ Para ver la versión k tiene instalada de git  ponga en Termux:
 ```
 git --version
 ```
-
 
 ## Crear y usar un token como contraseña en github.com
 
