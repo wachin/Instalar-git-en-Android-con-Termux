@@ -536,35 +536,40 @@ git config --global --add safe.directory /storage/emulated/0/Cancion
 Solucionado (eso deberá hacerlo en cada Repositorio)
 
 ## Edite algún archivo o carpeta 
-Ahora edite algún archivo o carpeta  desde algún administrador de archivos de Android que permita ver no solo las carpetas del sistema ejemplo: 
+Ahora edite algún archivo o carpeta  desde desde algún Administrador de archivos de Android k permita (los de Xiaomi y Samsung no funcionan) ver no solo las carpetas del sistema sino los repo que uno clone, para agregar un cambio en el repo, ejemplo: 
 
-**Gestor de archivos | File Manager Plus**
+**Gestor de archivos | File Manager Plus (gratis)**
 https://play.google.com/store/apps/details?id=com.alphainventor.filemanager
 
-**Super Explorador de archivos | ESTRONGS LIMITED**
+**Super Explorador de archivos | ESTRONGS LIMITED (Con publicidad)**
 https://play.google.com/store/apps/details?id=com.esuper.file.explorer
 
-**Solid Explorer File Manager| NetBeans**
+**Solid Explorer File Manager| NetBeans (prueba gratis por algunos días)**
 https://play.google.com/store/apps/details?id=pl.solidexplorer2
 
 **MiXplorer Silver | Hootan Parsa (de pago)**
 https://play.google.com/store/apps/details?id=com.mixplorer.silver
 
-Esta version MiXplorer Silver que ESTA en la Play Store no se puede probar al menos que uno la compre, pero hay una versión gratis en xdaforums
+Esta version MiXplorer Silver que está en la Play Store no se puede probar al menos que uno la compre, pero hay una versión gratis en xdaforums:
 
 **MiXplorer (gratis)**
 https://xdaforums.com/t/app-2-2-mixplorer-v6-x-released-fully-featured-file-manager.1523691/#post-23109280
 
-Cuyo enlace directo de descarga está allí mismo y es:
+Cuyo enlace directo de descarga está allí mismo y es (pueden revisar la apk en virustotal):
 
 https://drive.google.com/drive/folders/1BfeK39boriHy-9q76eXLLqbCwfV17-Gv?usp=share_link
 
+>**Nota**: Hay otros Administradores de archivos que deben también servir, pero solo estos he revisado.
+
 y edite algún archivo.
 
-Puede ser con:
+Puede ser con el editor de textos que traen ellos incorporados o con ejem:
 
-- [CodeFusion: Code Editor | Para texto](https://play.google.com/store/apps/details?id=com.alif.editor.code)
-- [WPS Office | Para Word](https://play.google.com/store/apps/details?id=cn.wps.moffice_eng)
+**CodeFusion: Code Editor (gratis)**
+[CodeFusion: Code Editor](https://play.google.com/store/apps/details?id=com.alif.editor.code)
+
+**WPS Office**
+[WPS Office | Para Word](https://play.google.com/store/apps/details?id=cn.wps.moffice_eng)
 
 sea como sea edite un archivo de su repositorio.
 
