@@ -350,7 +350,7 @@ Esperar a que termine, y poner:
 pkg update
 ```
 
-Le hará unas preguntas, ponga: 
+so le have unas preguntas, ponga: 
 
 ```
 y
@@ -362,13 +362,15 @@ Además explico que en la versión de Termux 0.118 después de usar pkg update h
 pkg upgrade
 ```
 
-(pero como les explicaba más arriba, en la versión 0,119 de Xiaomi no es necesario porque pkg update es una especie de híbrido que hace las dos cosas) y luego esté atento y ponga la: "y" varias veces. Y una vez k termine ponga:
+(pero como les explicaba más arriba, en la versión 0,119 de Xiaomi no es necesario porque pkg update es una especie de híbrido que hace las dos cosas) 
+
+esté atento y ponga la: "y" varias veces. Y una vez k termine ponga:
 
 ```
 pkg install git
 ```
 
-cuando ponga este comando vea allí cuál repo aparece, en caso de que se haya cambiado el repo cambielo usando otra vez `termux-change-repo` xq sino empezará a buscar aleatoriamente otro repo
+cuando ponga este comando vea allí cuál repo aparece, en caso de que se haya cambiado el repo cancele con "Ctrl + C" y cambielo usando otra vez `termux-change-repo` xq sino empezará a buscar aleatoriamente otro repo
 
 ### Aparecerán más opciones en termux-change-repo después de actualizar
 Si Ud x algún motivo desea usar otra vez el comando: 
