@@ -581,7 +581,7 @@ https://play.google.com/store/apps/details?id=cn.wps.moffice_eng
 Funciona bien con internet pero sin internet para abrir varios archivos a veces se cuelga y hay que cerrarla y volverla a abrir otra vez para poder abrir otros archivos. Esta App no acepta usar otro tipo de fuentes que las que se pueden usar desde la App
 https://play.google.com/store/apps/details?id=com.microsoft.office.word
 
-**AndrOpen Office (para docx, odt, totalmente gratis exporta a PDF, pero la interfaz es algo difícil de usar)** 
+**AndrOpen Office (para docx, odt, pero no exporta gratis a PDF, la interfaz es algo difícil de usar)** 
 Esta App permite añadir fuentes extras, en la "Tuerca" y clic en "Añadir fuentes" y buscar la .ttf que usted quiera y será añadida
 https://play.google.com/store/apps/details?id=com.andropenoffice
 
