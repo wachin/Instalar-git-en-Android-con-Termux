@@ -578,7 +578,8 @@ Acepta además de las que trae el usar las fuentes tipográficas que uno quiera,
 https://play.google.com/store/apps/details?id=cn.wps.moffice_eng
 
 **Microsoft Word (gratis para docx, exporta gratis a PDF**
-Funciona bien con internet pero sin internet para abrir varios archivos a veces se cuelga y hay que cerrarla y volverla a abrir otra vez para poder abrir otros archivos. Esta App no acepta usar otro tipo de fuentes que las que se pueden usar desde la App
+En la versión del 2024 para exportar como PDF cuando el archivo esté listo, dar clic en el icono de abajo "Compartir" y clic en "Enviar una copia" y allí está la opción para PDF pero debe enviarla al administrador de archivos para copiarla y tenerla en local en su celular.
+Funciona bien con internet pero sin internet para abrir varios archivos a veces se cuelga y hay que cerrarla y volverla a abrir otra vez para poder abrir otros archivos. Esta App no acepta usar otro tipo de fuentes que las que se pueden usar desde la App misma.
 https://play.google.com/store/apps/details?id=com.microsoft.office.word
 
 **AndrOpen Office (para docx, odt, pero no exporta gratis a PDF, la interfaz es algo difícil de usar)** 
