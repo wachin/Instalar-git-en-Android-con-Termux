@@ -538,7 +538,7 @@ git config --global --add safe.directory /storage/emulated/0/Cancion
 Solucionado (eso deberá hacerlo en cada Repositorio)
 
 ## Edite algún archivo o carpeta 
-Ahora edite algún archivo o carpeta  desde desde algún Administrador de archivos de Android k permita (los de Xiaomi y Samsung no funcionan) ver no solo las carpetas del sistema sino los repo que uno clone, para agregar un cambio en el repo, ejemplo: 
+Ahora edite algún archivo o carpeta  desde algún Administrador de archivos de Android que permita (el de Xiaomi y el de Samsung no funcionan) ver no solo las carpetas del sistema sino los repo que uno clone, esto, para agregar un cambio en el repositorio, ejemplo con: 
 
 **Gestor de archivos | File Manager Plus (gratis)**
 https://play.google.com/store/apps/details?id=com.alphainventor.filemanager
@@ -552,7 +552,7 @@ https://play.google.com/store/apps/details?id=pl.solidexplorer2
 **MiXplorer Silver | Hootan Parsa (de pago)**
 https://play.google.com/store/apps/details?id=com.mixplorer.silver
 
-Esta version MiXplorer Silver que está en la Play Store no se puede probar al menos que uno la compre, pero hay una versión gratis en xdaforums:
+Esta version "MiXplorer Silver" que está en la Play Store no se puede probar al menos que uno la compre, pero hay una versión gratis en xdaforums:
 
 **MiXplorer (gratis)**
 https://xdaforums.com/t/app-2-2-mixplorer-v6-x-released-fully-featured-file-manager.1523691/#post-23109280
@@ -563,38 +563,40 @@ https://drive.google.com/drive/folders/1BfeK39boriHy-9q76eXLLqbCwfV17-Gv?usp=sha
 
 >**Nota**: Hay otros Administradores de archivos que deben también servir, pero solo estos he revisado.
 
-y edite algún archivo.
+y edite algún archivo
 
-Puede ser con el editor de textos que traen ellos incorporados o con ejem:
+Puede ser con el editor de textos que traen ellos incorporados o con ejemplo con algún editor de texto como:
 
-**Editor de textos QuickEdit (publicidad)**
+**Editor de textos QuickEdit (Publicidad)**
 https://play.google.com/store/apps/details?id=com.rhmsoft.edit
 
-**CodeFusion: Code Editor (gratis, pero le faltan algunas opciones)**
+**CodeFusion: Code Editor (gratis)**
+Este es un editor de código y se puede usar como editor de texto pero le faltan algunas opciones:
 https://play.google.com/store/apps/details?id=com.alif.editor.code
 
->**Nota**: Hay otras Apps, pero estas me parecen muy buenas
+y como editor de documentos:
 
 **WPS Office (gratis para docx, pero no exporta gratis a PDF)**
-Acepta además de las que trae el usar las fuentes tipográficas que uno quiera, esto creando una carpeta con el nombre Fonts en el Almacenamiento interno del celular y poniéndo allí las fuentes .ttf el App las reconoce (hay que cerrarlo y volverlo a abrir la primera vez)
+Acepta además de las fuentes tipográficas que trae el usar las fuentes tipográficas que uno quiera, esto creando una carpeta con el nombre Fonts en el Almacenamiento interno del celular y poniéndo allí las fuentes .ttf (que ya tiene que tener descargada, lista) y el App las reconocerá (hay que cerrar y volver a abrir el App la primera vez)
 https://play.google.com/store/apps/details?id=cn.wps.moffice_eng
 
-**Microsoft Word (gratis para docx, exporta gratis a PDF**
-En la versión del 2024 para exportar como PDF cuando el archivo esté listo, dar clic en el icono de abajo "Compartir" y clic en "Enviar una copia" y allí está la opción para PDF pero debe enviarla al administrador de archivos para copiarla y tenerla en local en su celular.
-Funciona bien con internet pero sin internet para abrir varios archivos a veces se cuelga y hay que cerrarla y volverla a abrir otra vez para poder abrir otros archivos. Esta App no acepta usar otro tipo de fuentes que las que se pueden usar desde la App misma.
+**Microsoft Word (gratis para docx, y exporta gratis a PDF)**
+En la versión del 2024 para exportar a PDF cuando el archivo esté listo, dar clic en el icono de abajo "Compartir" y clic en "Enviar una copia" y allí está la opción para PDF pero debe enviarla al administrador de archivos para copiarla y tenerla en local en su celular (también la puede enviar a WhatsApp por ejemplo para compartirla a otra persona).
+Funciona bien con internet pero sin internet para abrir varios archivos a veces se cuelga y hay que cerrarla y volverla a abrir otra vez para poder abrir otros archivos.
+Esta App no acepta usar otro tipo de fuentes que las que se pueden usar e instalar desde la App misma.
 https://play.google.com/store/apps/details?id=com.microsoft.office.word
 
 **AndrOpen Office (para docx, odt, pero no exporta gratis a PDF, la interfaz es algo difícil de usar)** 
-Esta App permite añadir fuentes extras, en la "Tuerca" y clic en "Añadir fuentes" y buscar la .ttf que usted quiera y será añadida
+Esta App permite añadir fuentes tipográficas extras, en la "Tuerca" y clic en "Añadir fuentes" y buscar la .ttf que usted quiera (que ya tiene que tener descargada) y será añadida
 https://play.google.com/store/apps/details?id=com.andropenoffice
 
->**Nota**: Hay otras Apps, no las he revisado todas.
+>**Nota**: Hay otras Apps, pero no las he revisado todas.
 
 sea como sea edite un archivo de su repositorio.
 
-Alternativamente puede usar un editor de texto de línea de comandos de Termux como nano o vi.
+Alternativamente puede usar un editor de texto de línea de comandos de Termux como nano o vi u otro.
 
-Sea como sea, luego de editar algún archivo añada el cambio que ha hecho:
+Sea como sea, luego de editar algún archivo añada el cambio que ha hecho en git ejemplo con::
 
 ```bash
 git add .
