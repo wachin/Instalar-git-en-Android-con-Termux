@@ -535,22 +535,31 @@ git config --global --add safe.directory /storage/emulated/0/Cancion
 
 Solucionado (eso deberá hacerlo en cada Repositorio)
 
-Ahora en algún administrador de archivos de Android que permita ver no solo las carpetas del sistema ejemplo: 
+## Edite algún archivo o carpeta 
+Ahora edite algún archivo o carpeta  desde algún administrador de archivos de Android que permita ver no solo las carpetas del sistema ejemplo: 
 
 **Gestor de archivos | File Manager Plus**
 https://play.google.com/store/apps/details?id=com.alphainventor.filemanager
 
->**Nota**: Yo siempre uso MiXplorer, pero no está en la Google Play Store sino acá (es gratis):
->https://xdaforums.com/t/app-2-2-mixplorer-v6-x-released-fully-featured-file-manager.1523691/#post-23109280
->Cuyo enlace directo está allí mismo abajito y es:
->https://drive.google.com/drive/folders/1BfeK39boriHy-9q76eXLLqbCwfV17-Gv?usp=share_link
->luego puede que aquí ponga un enlace de como instalarlo y usarlo.
->La versión de pago se llama MiXplorer Silver y si está en la Play Store:
->https://play.google.com/store/apps/details?id=com.mixplorer.silver
->También Súper Administrador de Archivos: https://play.google.com/store/apps/details?id=com.esuper.file.explorer
-> es muy bueno
+**Super Explorador de archivos | ESTRONGS LIMITED**
+https://play.google.com/store/apps/details?id=com.esuper.file.explorer
 
-edite algún archivo.
+**Solid Explorer File Manager| NetBeans**
+https://play.google.com/store/apps/details?id=pl.solidexplorer2
+
+**MiXplorer Silver | Hootan Parsa (de pago)**
+https://play.google.com/store/apps/details?id=com.mixplorer.silver
+
+Esta version MiXplorer Silver que ESTA en la Play Store no se puede probar al menos que uno la compre, pero hay una versión gratis en xdaforums
+
+**MiXplorer (gratis)**
+https://xdaforums.com/t/app-2-2-mixplorer-v6-x-released-fully-featured-file-manager.1523691/#post-23109280
+
+Cuyo enlace directo de descarga está allí mismo y es:
+
+https://drive.google.com/drive/folders/1BfeK39boriHy-9q76eXLLqbCwfV17-Gv?usp=share_link
+
+y edite algún archivo.
 
 Puede ser con:
 
