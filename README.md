@@ -386,9 +386,9 @@ si hacen como yo elijan la opción k es para escoger manualmente uno, y luego:
 ```
 pkg update
 ```
-además, este comando le aconsejo usarlo con alguna frecuencia, puede ser cada mes. Es para tener actualizados los parquetes
+además, este comando le aconsejo usarlo con alguna frecuencia, puede ser cada mes, es para tener actualizados los parquetes (en Termux 0.119 solo con este basta, y con 0.118 luego hay que usar pkg upgrade)
 
-Para ver la versión k tiene instalada de git  ponga en Termux:
+Para ver la versión que tiene instalada de git ponga en Termux:
 
 ```
 git --version
