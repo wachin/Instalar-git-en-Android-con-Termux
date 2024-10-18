@@ -565,15 +565,31 @@ y edite algún archivo.
 
 Puede ser con el editor de textos que traen ellos incorporados o con ejem:
 
-**CodeFusion: Code Editor (gratis)**
-[CodeFusion: Code Editor](https://play.google.com/store/apps/details?id=com.alif.editor.code)
+**Editor de textos QuickEdit (publicidad)**
+https://play.google.com/store/apps/details?id=com.rhmsoft.edit
 
-**WPS Office**
-[WPS Office | Para Word](https://play.google.com/store/apps/details?id=cn.wps.moffice_eng)
+**CodeFusion: Code Editor (gratis, pero le faltan algunas opciones)**
+https://play.google.com/store/apps/details?id=com.alif.editor.code
+
+>**Nota**: Hay otras Apps, pero estas me parecen muy buenas
+
+**WPS Office (gratis para docx, pero no exporta gratis a PDF)**
+Acepta además de las que trae el usar las fuentes tipográficas que uno quiera, esto creando una carpeta con el nombre Fonts en el Almacenamiento interno del celular y poniéndo allí las fuentes .ttf el App las reconoce (hay que cerrarlo y volverlo a abrir la primera vez)
+https://play.google.com/store/apps/details?id=cn.wps.moffice_eng
+
+**Microsoft Word (gratis para docx, exporta gratis a PDF**
+Funciona bien con internet pero sin internet para abrir varios archivos a veces se cuelga y hay que cerrarla y volverla a abrir otra vez para poder abrir otros archivos. Esta App no acepta usar otro tipo de fuentes que las que se pueden usar desde la App
+https://play.google.com/store/apps/details?id=com.microsoft.office.word
+
+**AndrOpen Office (para docx, odt, totalmente gratis exporta a PDF, pero la interfaz es algo difícil de usar)** 
+Esta App permite añadir fuentes extras, en la "Tuerca" y clic en "Añadir fuentes" y buscar la .ttf que usted quiera y será añadida
+https://play.google.com/store/apps/details?id=com.andropenoffice
+
+>**Nota**: Hay otras Apps, no las he revisado todas.
 
 sea como sea edite un archivo de su repositorio.
 
-Alternativamente puede usar un editor de texto de línea de comandos de Termux con nano o vi.
+Alternativamente puede usar un editor de texto de línea de comandos de Termux como nano o vi.
 
 Sea como sea, luego de editar algún archivo añada el cambio que ha hecho:
 
@@ -587,7 +603,7 @@ y debemos hacer un commit, ejemplo:
 git commit -m "Nombre del commit"
 ```
 
-Y luego envíe los cambios al repo remoto:
+Y luego envíe los cambios al remoto:
 
 ```bash
 git push
@@ -605,9 +621,11 @@ dentro del HOME que Termux emula, archivo que contendrá el Token.
 
 Y con eso ya podemos hacer:
 
-```bash
-git status, push, fetch, merge, pull, etc
-```
+git status  
+push  
+fetch  
+merge  
+pull, etc  
 
 Ahora, haga otro cambio en algún archivo, y haga otra vez: add, commit y push, y ya no le pedirá otra vez el token (si ha seguido estos pasos en el orden indicado).
 
