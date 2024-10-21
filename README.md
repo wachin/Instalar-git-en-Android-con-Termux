@@ -582,9 +582,12 @@ https://play.google.com/store/apps/details?id=cn.wps.moffice_eng
 
 **Microsoft Word (gratis para docx, y exporta gratis a PDF)**
 En la versión del 2024 para exportar a PDF cuando el archivo esté listo, dar clic en el icono de abajo "Compartir" y clic en "Enviar una copia" y allí está la opción para PDF pero debe enviarla al administrador de archivos para copiarla y tenerla en local en su celular (también la puede enviar a WhatsApp por ejemplo para compartirla a otra persona).
-Funciona bien con internet pero sin internet para abrir varios archivos a veces se cuelga y hay que cerrarla y volverla a abrir otra vez para poder abrir otros archivos.
-Esta App no acepta usar otro tipo de fuentes que las que se pueden usar e instalar desde la App misma.
+Funciona bien con internet pero sin internet para abrir varios archivos a veces se cuelga y hay que cerrarla y volverla a abrir otra vez para poder abrir otros archivos, pero esto para archivos que estén físicamente en el celular, pues si usted desea, desde OneDrive (tiene que instalarlo) puede a un documento darle clic en los tres puntitos y marcar la opción "Hacer que esté disponible sin conección" y al hacerlo funcionará mejor.
+Esta App no acepta usar otro tipo de fuentes que las que se pueden usar e instalar desde la App misma. Y esta App gratis tiene algunas restricciones como que no permite crear documentos con dos columnas pero si editarlos, para que si lo permita hay que comprarla.
 https://play.google.com/store/apps/details?id=com.microsoft.office.word
+
+
+**Documentos de Google**
 
 **AndrOpen Office (para docx, odt, pero no exporta gratis a PDF, la interfaz es algo difícil de usar)** 
 Esta App permite añadir fuentes tipográficas extras, en la "Tuerca" y clic en "Añadir fuentes" y buscar la .ttf que usted quiera (que ya tiene que tener descargada) y será añadida
