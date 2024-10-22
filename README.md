@@ -552,14 +552,16 @@ https://play.google.com/store/apps/details?id=pl.solidexplorer2
 **MiXplorer Silver | Hootan Parsa (de pago)**
 https://play.google.com/store/apps/details?id=com.mixplorer.silver
 
-Esta version "MiXplorer Silver" que está en la Play Store no se puede probar al menos que uno la compre, pero hay una versión gratis en xdaforums:
+Esta version "MiXplorer Silver" que está en la Play Store no se puede probar al menos que uno la compre, pero hay una versión gratis en xda forums:
 
 **MiXplorer (gratis)**
 https://xdaforums.com/t/app-2-2-mixplorer-v6-x-released-fully-featured-file-manager.1523691/#post-23109280
 
-Cuyo enlace directo de descarga está allí mismo y es (pueden revisar la apk en virustotal):
+Cuyo enlace directo de descarga está allí mismo y es el siguiente (pueden revisar la apk en virustotal):
 
 https://drive.google.com/drive/folders/1BfeK39boriHy-9q76eXLLqbCwfV17-Gv?usp=share_link
+
+allí está el apk de la App, yo instalo la universal y los complementos los instalo o de allí mismo o de arriba en Google Play en el enlace de "MiXplorer Silver" dando clic en "Hootan Parsa" y clic en "Todas las Aplicaciones" allí instalo: MiX Image, MiX Tagger, MiX PDF, MiX Codecs, MiX Archive
 
 >**Nota**: Hay otros Administradores de archivos que deben también servir, pero solo estos he revisado.
 
@@ -567,11 +569,12 @@ y edite algún archivo
 
 Puede ser con el editor de textos que traen ellos incorporados o con ejemplo con algún editor de texto como:
 
-**Editor de textos QuickEdit (Publicidad)**
+**Editor de textos QuickEdit (gratis)**  
+Tiene mucha Publicidad, lo mejor es comprarlo
 https://play.google.com/store/apps/details?id=com.rhmsoft.edit
 
 **CodeFusion: Code Editor (gratis)**
-Este es un editor de código y se puede usar como editor de texto pero le faltan algunas opciones:
+Este es un editor de código y se puede usar como editor de texto pero le faltan algunas opciones, pero lo uso:
 https://play.google.com/store/apps/details?id=com.alif.editor.code
 
 y como editor de documentos:
@@ -580,8 +583,16 @@ y como editor de documentos:
 Acepta además de las fuentes tipográficas que trae el usar las fuentes tipográficas que uno quiera, esto creando una carpeta con el nombre Fonts en el Almacenamiento interno del celular y poniéndo allí las fuentes .ttf (que ya tiene que tener descargada, lista) y el App las reconocerá (hay que cerrar y volver a abrir el App la primera vez)
 https://play.google.com/store/apps/details?id=cn.wps.moffice_eng
 
-**Microsoft Word (gratis para docx, y exporta gratis a PDF)**
-En la versión del 2024 para exportar a PDF cuando el archivo esté listo, dar clic en el icono de abajo "Compartir" y clic en "Enviar una copia" y allí está la opción para PDF pero debe enviarla al administrador de archivos para copiarla y tenerla en local en su celular (también la puede enviar a WhatsApp por ejemplo para compartirla a otra persona).
+**Microsoft 365 (Office) + OneDrive (gratis para docx, y exporta gratis a PDF)**
+En el 2024 esta App funciona bien
+con internet y sin internet, para abrir uno o varios archivos 
+a abrir otra vez para poder abrir otros archivos que estén físicamente en el celular, también si usted desea, desde OneDrive (tiene que instalarlo) puede a un documento darle clic en los tres puntitos y marcar la opción "Hacer que esté disponible sin conección" y al hacerlo lo podrá tener en OneDrive offline.
+Para exportar a PDF, teniendo abierto un archivo
+
+Esta App no acepta usar otro tipo de fuentes que las que se pueden usar e instalar desde la App misma. Y esta App gratis tiene algunas restricciones como que no permite crear documentos con dos columnas pero si editarlos, para que si lo permita hay que comprarla.
+
+**Microsoft Word + OneDrive (gratis, exporta a PDF)**
+a PDF cuando el archivo esté listo, dar clic en el icono de abajo "Compartir" y clic en "Enviar una copia" y allí está la opción para PDF pero debe enviarla al administrador de archivos para copiarla y tenerla en local en su celular (también la puede enviar a WhatsApp por ejemplo para compartirla a otra persona).
 Funciona bien con internet pero sin internet para abrir varios archivos a veces se cuelga y hay que cerrarla y volverla a abrir otra vez para poder abrir otros archivos, pero esto para archivos que estén físicamente en el celular, pues si usted desea, desde OneDrive (tiene que instalarlo) puede a un documento darle clic en los tres puntitos y marcar la opción "Hacer que esté disponible sin conección" y al hacerlo funcionará mejor.
 Esta App no acepta usar otro tipo de fuentes que las que se pueden usar e instalar desde la App misma. Y esta App gratis tiene algunas restricciones como que no permite crear documentos con dos columnas pero si editarlos, para que si lo permita hay que comprarla.
 https://play.google.com/store/apps/details?id=com.microsoft.office.word
