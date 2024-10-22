@@ -226,7 +226,7 @@ Cuando he instalado Termux desde F-Droid lo siguiente es lo que hago porque quie
 
 **Nota:** Este tutorial lo hago en 2024 Octubre
 
-### Seleccionar un Repositorio
+### termux-change-repo
 
 Para elegir un repositorio, poner:
 
@@ -266,56 +266,63 @@ y de clic en ok
 
 Aparecerá una lista, para moverse hacia abajo o arriba puedan usar en termux las flechas o Página arriba (PGUP) o Página abajo (PGDN)
 
-**Repositorios Disponibles**
+## Repositorios Disponibles (no los he visto caídos)
 
 En la versión de Termux k está en el instalador de los celulares Xiaomi "Mi Picks" he visto k se cargan bastante los siguientes repos:
 
-**Grimler** (Henrik Grimler https://github.com/grimler91)
+### Grimler
+(Henrik Grimler https://github.com/grimler91)
 Alojado en Helsinki, Finlandia.
 Bifurcado desde el nodo principal
 Actualizado cada hora
 https://grimler.se/termux-packages-24
 
-**BFSU** (Beijing Foreign Studies University)(http://www.bfsu.edu.cn/)(China)
+### BFSU 
+(Beijing Foreign Studies University)(http://www.bfsu.edu.cn/)(China)
 https://mirrors.bfsu.edu.cn/termux/apt/termux-main
 
-**Karibu** (karibu@freedif.com)
+### Karibu
+(karibu@freedif.com)
 Alojado en Singapore (Asia) 
 Actualizado cada hora
 https://mirror.freedif.org/termux/termux-main
 
-**mwt** (Matthew W. Thomas | Economist at FTC | Northwestern University Economics PhD https://github.com/mwt)
+### mwt
+(Matthew W. Thomas | Economist at FTC | Northwestern University Economics PhD https://github.com/mwt)
 Alojado en la costa este/oeste de EE. UU. y Europa (a través de CDN)
 Actualizado 4 veces al día
 https://mirror.mwt.me/termux/main
 
-**Purde** Grupo de usuarios de Linux de la Universidad de Purdue
+### Purde
+Grupo de usuarios de Linux de la Universidad de Purdue
 Alojado en Indiana, EE. UU.
 Actualizado 4 veces al día https://plug-mirror.rcac.purdue.edu/termux/termux-main
 
-**a1batross** (https://github.com/a1batross)
+### a1batross
+(https://github.com/a1batross)
 Actualizado 4 veces al día https://termux.mentality.rip/termux-main
 
-**Librehat** (https://github.com/librehat)
+### Librehat
+(https://github.com/librehat)
 Actualizado 4 veces al día https://termux.librehat.com/apt/termux-main
 
-**CloudFlare** CDN endpoint https://packages-cf.termux.org/apt/termux-main
+### CloudFlare
+CDN endpoint https://packages-cf.termux.org/apt/termux-main
 
 
-**CAIDOS**
+## Repositorios caídos con frecuencia
 Y he visto caídos a:
 
-**sahilister**
+### sahilister
 https://termux.sahilister.in/apt/termux-main: bad
 
-**kcubeterm**
+### kcubeterm
 https://dl.kcubeterm.com/termux-main: bad
 
-**Astra**
+### Astra
 https://termux.astra.in.ua/apt/termux-main: bad
 
-# CONSEJO 
-
+**CONSEJO**  
 Yo uso Grimler, nunca lo he visto caído, tampoco a BFSU (solo es de observar, los que se caen tienen: bad)
 
 La description de los repos las he visto en: 
@@ -372,7 +379,7 @@ pkg install git
 
 cuando ponga este comando vea allí cuál repo aparece, en caso de que se haya cambiado el repo cancele con "Ctrl + C" y cambielo usando otra vez `termux-change-repo` xq sino empezará a buscar aleatoriamente otro repo
 
-### Aparecerán más opciones en termux-change-repo después de actualizar
+## Aparecerán más opciones en termux-change-repo después de actualizar
 Si Ud x algún motivo desea usar otra vez el comando: 
 
 ```
@@ -381,7 +388,7 @@ termux-change-repo
 
 Le aparecerán más opciones.
 
-si hacen como yo elijan la opción k es para escoger manualmente uno, y luego:
+si hacen como yo elijan la opción que es para escoger manualmente uno, y luego:
 
 ```
 pkg update
@@ -422,7 +429,7 @@ En "**Select scopes**" marque "**repo**" (pero si necesita algún otro permiso m
 
 Copie inmediatamente el código generado y téngalo en un lugar seguro o en un gestor de contraseñas.
 
-### Acceder al Almacenamiento Interno
+## Acceder al Almacenamiento Interno
 
 Para que Termux tenga acceso a su almacenamiento interno, escriba:
 
@@ -487,7 +494,7 @@ y si uso: cd /sdcard así:
 
 >**Nota**: Siempre es importante saber dónde está ubicado porque puede sin querer clonar un repositorio dentro del espacio de configuraciones de Termux o en storage, y en caso de pasar algún día eso, puede usar el comando mover "mv" para mover la carpeta que haya clonado desde el espacio de las configuraciones de Termux a storage y luego usar otra vez "mv" para mover la carpeta a "shared".
 
-### Clonar un repositorio
+## Clonar un repositorio
 
 Una vez que esté en el Almacenamiento Interno Compartido (llamado shared o /sdcard -si utilizo el segundo método para llegar allí-) clone un Repositorio, por ejemplo:
 
@@ -542,21 +549,21 @@ Solucionado (eso deberá hacerlo en cada Repositorio)
 ## Edite algún archivo o carpeta 
 Ahora edite algún archivo o carpeta  desde algún Administrador de archivos de Android que permita (el de Xiaomi y el de Samsung no funcionan) ver no solo las carpetas del sistema sino los repo que uno clone, esto, para agregar un cambio en el repositorio, ejemplo con: 
 
-**Gestor de archivos | File Manager Plus (gratis)**
+### Gestor de archivos | File Manager Plus (gratis)
 https://play.google.com/store/apps/details?id=com.alphainventor.filemanager
 
-**Super Explorador de archivos | ESTRONGS LIMITED (Con publicidad)**
+### Super Explorador de archivos | ESTRONGS LIMITED (Con publicidad)
 https://play.google.com/store/apps/details?id=com.esuper.file.explorer
 
-**Solid Explorer File Manager| NetBeans (prueba gratis por algunos días)**
+### Solid Explorer File Manager| NetBeans (prueba gratis por algunos días)
 https://play.google.com/store/apps/details?id=pl.solidexplorer2
 
-**MiXplorer Silver | Hootan Parsa (de pago)**
+### MiXplorer Silver | Hootan Parsa (de pago)
 https://play.google.com/store/apps/details?id=com.mixplorer.silver
 
 Esta version "MiXplorer Silver" que está en la Play Store no se puede probar al menos que uno la compre, pero hay una versión gratis en xda forums:
 
-**MiXplorer (gratis)**
+### MiXplorer (gratis)
 https://xdaforums.com/t/app-2-2-mixplorer-v6-x-released-fully-featured-file-manager.1523691/#post-23109280
 
 Cuyo enlace directo de descarga está allí mismo y es el siguiente (pueden revisar la apk en virustotal):
@@ -571,22 +578,22 @@ y edite algún archivo
 
 Puede ser con el editor de textos que traen ellos incorporados o con ejemplo con algún editor de texto como:
 
-**Editor de textos QuickEdit (gratis)**  
+### Editor de textos QuickEdit (gratis con publicidad)
 Tiene mucha Publicidad, lo mejor es comprarlo
 https://play.google.com/store/apps/details?id=com.rhmsoft.edit
 
-**CodeFusion: Code Editor (gratis)**
+### CodeFusion: Code Editor (gratis)
 Este es un editor de código y se puede usar como editor de texto pero le faltan algunas opciones, pero lo uso:
 https://play.google.com/store/apps/details?id=com.alif.editor.code
 
 y como editor de documentos:
 
-**WPS Office (gratis)**
+### WPS Office (gratis, de pago exporta a PDF)
 Acepta además de las fuentes tipográficas que trae el App se puede usar las fuentes tipográficas que uno quiera, esto creando una carpeta con el nombre Fonts en el Almacenamiento interno del celular y poniéndo allí las fuentes .ttf (que ya tiene que tener descargadas) y el App las reconocerá (hay que cerrar y volver a abrir el App la primera vez)
 La función de exportación a PDF es de pago, o sea para eso hay que comprar el App
 https://play.google.com/store/apps/details?id=cn.wps.moffice_eng
 
-**Microsoft 365 (Office) + OneDrive (gratis, exporta a PDF)**
+### Microsoft 365 (Office) + OneDrive (gratis, exporta a PDF con internet)
 En el 2024 esta App funciona bien
 con internet y sin internet, para abrir uno o varios archivos 
 a abrir otra vez para poder abrir otros archivos que estén físicamente en el celular, también si usted desea, desde OneDrive (tiene que instalarlo) puede a un documento darle clic en los tres puntitos y marcar la opción "Hacer que esté disponible sin conección" y al hacerlo lo podrá tener en OneDrive offline.
@@ -598,7 +605,7 @@ https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow
 Microsoft OneDrive
 https://play.google.com/store/apps/details?id=com.microsoft.skydrive
 
-**Microsoft Word + OneDrive (gratis, exporta a PDF)**
+### Microsoft Word + OneDrive (gratis, exporta a PDF con internet)
 **Nota**: No estoy usando esta App pero la dejo aquí por si desean usarla.
 Para exportar a PDF necesita tener internet, cuando el archivo esté listo, de clic en el icono de abajo "Compartir" y clic en "Enviar una copia" y allí está la opción para PDF pero debe enviarla al administrador de archivos para copiarla y tenerla en local en su celular, o si desea también la puede enviar a WhatsApp por ejemplo para compartirla a otra persona.
 Para editar archivos funciona bien con internet pero sin internet para abrir varios archivos (al abrir uno y luego cerrarlo para abrir otro) a se me cuelga y hay que cerrarla y volverla a abrir otra vez para poder abrir otro archivo, pero esto para archivos que estén físicamente en el celular, pues si usted desea, desde OneDrive (tiene que instalarlo) puede a un documento darle clic en los tres puntitos y marcar la opción "Hacer que esté disponible sin conección" y al hacerlo funcionará mejor.
@@ -607,24 +614,34 @@ Microsoft Word
 https://play.google.com/store/apps/details?id=com.microsoft.office.word
 
 
-**Documentos de Google + Google Drive**
+### Documentos de Google + Google Drive (gratis, exporta a PDF con internet)
 Necesita tener ambos instalados. Ests App necesita internet para muchas funciones. 
 Para exportar un archivo .docx a PDF primero hay que subirlo a Drive, abra Drive y de clic en el + y búsquelo y subalo, una vez subido (si no lo ve que se subió, de clic en "Archivos" y luego vuela a "Página principal" -es como para que se actualice-), y cuando lo vea subido a Drive allí dele clic y se abrirá, y de clic arriba a la derecha en los 3 puntitos y clic en: "> Compartir y exportar > Guardar como > Documentos de Google" Y al hacer esto se abrirá automáticamente como un Documento de Google, y de clic en: "> Compartir y exportar > Guardar como > Documento PDF (.pdf)", y el documento se abrirá en otra ventana y de clic al icono de descarga
 Para tener los archivos disponibles sin conección en Drive, con internet debe subirlo a Drive y una vez subido dar clic en los 3 puntitos y clic en: "Permitir acceso sin conexión"
-Para editar un documento teniendo abierto de clic abajo a de derecha en el lápiz, y para dar formato allí arriba en medio hay una letra A darle clic. Está App si permite manejar gratuitamente dos columnas, y solo es posible usar las fuentes que vienen allí. Para la configuración de la página far clic a los 3 puntitos y clic en : Configuración de la página
+Para editar un documento teniendo abierto de clic abajo a de derecha en el lápiz, y para dar formato allí arriba en medio hay una letra A darle clic. Está App si permite manejar gratuitamente dos columnas, y solo es posible usar las fuentes que vienen allí. Para la configuración de la página far clic a los 3 puntitos y clic en : Configuración de la página:  
+Documentos de Google  
+https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.docs
+Google Drive  
+https://play.google.com/store/apps/details?id=com.google.android.apps.docs
 
 
-**AndrOpen Office ()** 
+### AndrOpen Office (gratis, de pago exporta a PDF)
 Esta App permite añadir fuentes tipográficas extras, en la "Tuerca" y clic en "Añadir fuentes" y buscar la .ttf que usted quiera (que ya tiene que tener descargada) y será añadida.
 Para exportar docx o odt a PDF necesita ser comprada. La interfaz es algo difícil de usar
 Esta App no necesita internet para funcionar, pero no se si lo necesite para exportar a PDF una vez comprada, puede que no lo necesite:
 https://play.google.com/store/apps/details?id=com.andropenoffice
 
->**Nota**: Hay otras Apps, pero no las he revisado todas.
+### Libreoffice desde la terminal de Termux (gratis, exporta a PDF sin internet)
+Se puede instalar a Libreoffice dentro de Termux (pero no lo usaremos con interfaz gráfica de usuario) y se puede convertir un documento ejemplo .docx u otros a .pdf sin necesidad de tener internet, y gratis, pero hay que saber manejar la terminal. Luego aquí pondré un enlace de como hacer eso en Termux
+
+### nano o vi para editar archivos de texto desde la línea de comandos
+Además menciono que puede usar un editor de texto de línea de comandos de Termux como nano o vi u otro, solo hay que manejar desde termux hasta el lugar donde esté el archivo en el Almacenamiento Interno y abrirlo (más abajo dejo unas explicaciones de como usar nano y vi)
+
+>**Nota**: Hay otras Apps para editar archivos, pero no las he revisado todas.
 
 sea como sea edite un archivo de su repositorio.
 
-Además menciono que puede usar un editor de texto de línea de comandos de Termux como nano o vi u otro.
+
 
 Sea como sea, luego de editar algún archivo añada el cambio que ha hecho en git ejemplo con:
 
