@@ -608,20 +608,25 @@ https://play.google.com/store/apps/details?id=com.microsoft.office.word
 
 
 **Documentos de Google + Google Drive**
-Necesidad tener ambos
+Necesita tener ambos instalados. Ests App necesita internet para muchas funciones. 
+Para exportar un archivo .docx a PDF primero hay que subirlo a Drive, abra Drive y de clic en el + y búsquelo y subalo, una vez subido (si no lo ve que se subió, de clic en "Archivos" y luego vuela a "Página principal" -es como para que se actualice-), y cuando lo vea subido a Drive allí dele clic y se abrirá, y de clic arriba a la derecha en los 3 puntitos y clic en: "> Compartir y exportar > Guardar como > Documentos de Google" Y al hacer esto se abrirá automáticamente como un Documento de Google, y de clic en: "> Compartir y exportar > Guardar como > Documento PDF (.pdf)", y el documento se abrirá en otra ventana y de clic al icono de descarga
+Para tener los archivos disponibles sin conección en Drive, con internet debe subirlo a Drive y una vez subido dar clic en los 3 puntitos y clic en: "Permitir acceso sin conexión"
+Para editar un documento teniendo abierto de clic abajo a de derecha en el lápiz, y para dar formato allí arriba en medio hay una letra A darle clic. Está App si permite manejar gratuitamente dos columnas, y solo es posible usar las fuentes que vienen allí. Para la configuración de la página far clic a los 3 puntitos y clic en : Configuración de la página
 
 
-**AndrOpen Office (para docx, odt, pero no exporta gratis a PDF, la interfaz es algo difícil de usar)** 
-Esta App permite añadir fuentes tipográficas extras, en la "Tuerca" y clic en "Añadir fuentes" y buscar la .ttf que usted quiera (que ya tiene que tener descargada) y será añadida
+**AndrOpen Office ()** 
+Esta App permite añadir fuentes tipográficas extras, en la "Tuerca" y clic en "Añadir fuentes" y buscar la .ttf que usted quiera (que ya tiene que tener descargada) y será añadida.
+Para exportar docx o odt a PDF necesita ser comprada. La interfaz es algo difícil de usar
+Esta App no necesita internet para funcionar, pero no se si lo necesite para exportar a PDF una vez comprada, puede que no lo necesite:
 https://play.google.com/store/apps/details?id=com.andropenoffice
 
 >**Nota**: Hay otras Apps, pero no las he revisado todas.
 
 sea como sea edite un archivo de su repositorio.
 
-Alternativamente puede usar un editor de texto de línea de comandos de Termux como nano o vi u otro.
+Además menciono que puede usar un editor de texto de línea de comandos de Termux como nano o vi u otro.
 
-Sea como sea, luego de editar algún archivo añada el cambio que ha hecho en git ejemplo con::
+Sea como sea, luego de editar algún archivo añada el cambio que ha hecho en git ejemplo con:
 
 ```bash
 git add .
@@ -641,13 +646,13 @@ git push
 
 y cuando le pregunte por su Usuario póngalo, y cuando le pregunte por el Password ponga su Token.
 
-Se creará el archivo:
+Se creará el archivo (eso es interno, no lo verá usted):
 
 .git-credentials
 
 dentro del HOME que Termux emula, archivo que contendrá el Token.
 
-> **Nota:** Si luego desean usar otro usuario deben ingresarlo y se cambiará, y si desean regresar al anterior deben ingresarlo otra vez, es decir, siempre estará activo el último usuario ingresado.
+> **Nota:** Si luego desean usar otro usuario de github o gitlab deben ingresarlo y se cambiará, y si desean regresar al anterior deben ingresarlo otra vez, es decir, siempre estará activo el último usuario ingresado.
 
 Y con eso ya podemos hacer:
 
