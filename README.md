@@ -460,15 +460,16 @@ cd /sdcard
 
 Con cualquiera de los dos métodos llegará a la memoria interna compartida.
 
-Para saber en qué ruta está, escriba en Termux:
+Para saber en qué ruta está ubicado, escriba en Termux:
 
 ```bash
 pwd
 ```
 
+
 y presione Enter.
 
-Nota: Si es la primera vez que abre Termux estará en:
+Nota: Si es la primera vez que abre Termux estará en la carpeta de configuraciones de Termux (es una especie de emulación del HOME de Linux para que Termux tenga allí sus archivos como si estuviera en Linux):
 
 ```
 /data/data/com.termux/files/home
@@ -479,15 +480,16 @@ y si ya está en la memoria interna y para llegar allí usó cd shared aparece a
 ```
 ~/storage/shared $
 ```
-y so uso: cd /sdcard así:
+y si uso: cd /sdcard así:
 ```
 /sdcard $
 ```
 
+>**Nota**: Siempre es importante saber dónde está ubicado porque puede sin querer clonar un repositorio dentro del espacio de configuraciones de Termux o en storage, y en caso de pasar algún día eso, puede usar el comando mover "mv" para mover la carpeta que haya clonado desde el espacio de las configuraciones de Termux a storage y luego usar otra vez "mv" para mover la carpeta a "shared".
 
 ### Clonar un repositorio
 
-Una vez que esté en el Almacenamiento Interno Compartido (llamado shared o /sdcard) clone un Repositorio, por ejemplo:
+Una vez que esté en el Almacenamiento Interno Compartido (llamado shared o /sdcard -si utilizo el segundo método para llegar allí-) clone un Repositorio, por ejemplo:
 
 ```bash
 git clone https://github.com/mamimeli/Cancion
@@ -579,26 +581,35 @@ https://play.google.com/store/apps/details?id=com.alif.editor.code
 
 y como editor de documentos:
 
-**WPS Office (gratis para docx, pero no exporta gratis a PDF)**
-Acepta además de las fuentes tipográficas que trae el usar las fuentes tipográficas que uno quiera, esto creando una carpeta con el nombre Fonts en el Almacenamiento interno del celular y poniéndo allí las fuentes .ttf (que ya tiene que tener descargada, lista) y el App las reconocerá (hay que cerrar y volver a abrir el App la primera vez)
+**WPS Office (gratis)**
+Acepta además de las fuentes tipográficas que trae el App se puede usar las fuentes tipográficas que uno quiera, esto creando una carpeta con el nombre Fonts en el Almacenamiento interno del celular y poniéndo allí las fuentes .ttf (que ya tiene que tener descargadas) y el App las reconocerá (hay que cerrar y volver a abrir el App la primera vez)
+La función de exportación a PDF es de pago, o sea para eso hay que comprar el App
 https://play.google.com/store/apps/details?id=cn.wps.moffice_eng
 
-**Microsoft 365 (Office) + OneDrive (gratis para docx, y exporta gratis a PDF)**
+**Microsoft 365 (Office) + OneDrive (gratis, exporta a PDF)**
 En el 2024 esta App funciona bien
 con internet y sin internet, para abrir uno o varios archivos 
 a abrir otra vez para poder abrir otros archivos que estén físicamente en el celular, también si usted desea, desde OneDrive (tiene que instalarlo) puede a un documento darle clic en los tres puntitos y marcar la opción "Hacer que esté disponible sin conección" y al hacerlo lo podrá tener en OneDrive offline.
-Para exportar a PDF, teniendo abierto un archivo
-
-Esta App no acepta usar otro tipo de fuentes que las que se pueden usar e instalar desde la App misma. Y esta App gratis tiene algunas restricciones como que no permite crear documentos con dos columnas pero si editarlos, para que si lo permita hay que comprarla.
+Para exportar a PDF necesita internet, teniendo abierto un archivo en el "Modo de Impresión" (No en el Modo "Vista Móvil" -abajo a la izquierda-) de clic en los 3 puntitos arriba a la derecha y allí está la opción: "Compartir como PDF", es gratis.
+Esta App no acepta usar otro tipo de fuentes que las que se pueden usar e instalar desde la App misma. Y esta App gratis tiene algunas restricciones como que no permite crear documentos con dos columnas (pero si editarlos, o sea, si abre un documento que ya tiene 2 columnas si lo puede editar), para que sí lo permita hay que comprarla.
+Esta App no acepta usar otro tipo de fuentes que las que se pueden usar e instalar desde la App misma. Y esta App gratis tiene algunas restricciones como que no permite crear documentos con dos columnas pero si editarlos, y para que sí lo permita hay que comprarla:
+Microsoft 365 (Office)
+https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow
+Microsoft OneDrive
+https://play.google.com/store/apps/details?id=com.microsoft.skydrive
 
 **Microsoft Word + OneDrive (gratis, exporta a PDF)**
-a PDF cuando el archivo esté listo, dar clic en el icono de abajo "Compartir" y clic en "Enviar una copia" y allí está la opción para PDF pero debe enviarla al administrador de archivos para copiarla y tenerla en local en su celular (también la puede enviar a WhatsApp por ejemplo para compartirla a otra persona).
-Funciona bien con internet pero sin internet para abrir varios archivos a veces se cuelga y hay que cerrarla y volverla a abrir otra vez para poder abrir otros archivos, pero esto para archivos que estén físicamente en el celular, pues si usted desea, desde OneDrive (tiene que instalarlo) puede a un documento darle clic en los tres puntitos y marcar la opción "Hacer que esté disponible sin conección" y al hacerlo funcionará mejor.
-Esta App no acepta usar otro tipo de fuentes que las que se pueden usar e instalar desde la App misma. Y esta App gratis tiene algunas restricciones como que no permite crear documentos con dos columnas pero si editarlos, para que si lo permita hay que comprarla.
+**Nota**: No estoy usando esta App pero la dejo aquí por si desean usarla.
+Para exportar a PDF necesita tener internet, cuando el archivo esté listo, de clic en el icono de abajo "Compartir" y clic en "Enviar una copia" y allí está la opción para PDF pero debe enviarla al administrador de archivos para copiarla y tenerla en local en su celular, o si desea también la puede enviar a WhatsApp por ejemplo para compartirla a otra persona.
+Para editar archivos funciona bien con internet pero sin internet para abrir varios archivos (al abrir uno y luego cerrarlo para abrir otro) a se me cuelga y hay que cerrarla y volverla a abrir otra vez para poder abrir otro archivo, pero esto para archivos que estén físicamente en el celular, pues si usted desea, desde OneDrive (tiene que instalarlo) puede a un documento darle clic en los tres puntitos y marcar la opción "Hacer que esté disponible sin conección" y al hacerlo funcionará mejor.
+Esta App no acepta usar otro tipo de fuentes que las que se pueden usar e instalar desde la App misma. Y esta App gratis tiene algunas restricciones como que no permite crear documentos con dos columnas pero si editarlos, y para que sí lo permita hay que comprarla:
+Microsoft Word
 https://play.google.com/store/apps/details?id=com.microsoft.office.word
 
 
-**Documentos de Google**
+**Documentos de Google + Google Drive**
+Necesidad tener ambos
+
 
 **AndrOpen Office (para docx, odt, pero no exporta gratis a PDF, la interfaz es algo difícil de usar)** 
 Esta App permite añadir fuentes tipográficas extras, en la "Tuerca" y clic en "Añadir fuentes" y buscar la .ttf que usted quiera (que ya tiene que tener descargada) y será añadida
