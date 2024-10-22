@@ -542,10 +542,10 @@ Solucionado (eso deberá hacerlo en cada Repositorio)
 ## Edite algún archivo o carpeta 
 Ahora edite algún archivo o carpeta  desde algún Administrador de archivos de Android que permita (el de Xiaomi y el de Samsung no funcionan) ver no solo las carpetas del sistema sino los repo que uno clone, esto, para agregar un cambio en el repositorio, ejemplo con: 
 
-**Gestor de archivos | File Manager Plus (gratis)**
+**Gestor de archivos | File Manager Plus (gratis)**  
 https://play.google.com/store/apps/details?id=com.alphainventor.filemanager
 
-**Super Explorador de archivos | ESTRONGS LIMITED (Con publicidad)**
+**Super Explorador de archivos | ESTRONGS LIMITED (Con publicidad)**  
 https://play.google.com/store/apps/details?id=com.esuper.file.explorer
 
 **Solid Explorer File Manager| NetBeans (prueba gratis por algunos días)**
@@ -575,50 +575,53 @@ Puede ser con el editor de textos que traen ellos incorporados o con ejemplo con
 Tiene mucha Publicidad, lo mejor es comprarlo
 https://play.google.com/store/apps/details?id=com.rhmsoft.edit
 
-**CodeFusion: Code Editor (gratis)**
+**CodeFusion: Code Editor (gratis)**  
 Este es un editor de código y se puede usar como editor de texto pero le faltan algunas opciones, pero lo uso:
 https://play.google.com/store/apps/details?id=com.alif.editor.code
 
 y como editor de documentos:
 
-**WPS Office (gratis)**
+**WPS Office (gratis)**  
 Acepta además de las fuentes tipográficas que trae el App se puede usar las fuentes tipográficas que uno quiera, esto creando una carpeta con el nombre Fonts en el Almacenamiento interno del celular y poniéndo allí las fuentes .ttf (que ya tiene que tener descargadas) y el App las reconocerá (hay que cerrar y volver a abrir el App la primera vez)
-La función de exportación a PDF es de pago, o sea para eso hay que comprar el App
+La función de exportación a PDF es de pago, o sea para eso hay que comprar el App:
 https://play.google.com/store/apps/details?id=cn.wps.moffice_eng
 
-**Microsoft 365 (Office) + OneDrive (gratis, exporta a PDF)**
+**Microsoft 365 (Office) + OneDrive (gratis, exporta a PDF)**  
 En el 2024 esta App funciona bien
 con internet y sin internet, para abrir uno o varios archivos 
 a abrir otra vez para poder abrir otros archivos que estén físicamente en el celular, también si usted desea, desde OneDrive (tiene que instalarlo) puede a un documento darle clic en los tres puntitos y marcar la opción "Hacer que esté disponible sin conección" y al hacerlo lo podrá tener en OneDrive offline.
 Para exportar a PDF necesita internet, teniendo abierto un archivo en el "Modo de Impresión" (No en el Modo "Vista Móvil" -abajo a la izquierda-) de clic en los 3 puntitos arriba a la derecha y allí está la opción: "Compartir como PDF", es gratis.
 Esta App no acepta usar otro tipo de fuentes que las que se pueden usar e instalar desde la App misma. Y esta App gratis tiene algunas restricciones como que no permite crear documentos con dos columnas (pero si editarlos, o sea, si abre un documento que ya tiene 2 columnas si lo puede editar), para que sí lo permita hay que comprarla.
-Esta App no acepta usar otro tipo de fuentes que las que se pueden usar e instalar desde la App misma. Y esta App gratis tiene algunas restricciones como que no permite crear documentos con dos columnas pero si editarlos, y para que sí lo permita hay que comprarla:
-Microsoft 365 (Office)
-https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow
-Microsoft OneDrive
-https://play.google.com/store/apps/details?id=com.microsoft.skydrive
+Esta App no acepta usar otro tipo de fuentes que las que se pueden usar e instalar desde la App misma. Y esta App gratis tiene algunas restricciones como que no permite crear documentos con dos columnas pero si editarlos, y para que sí lo permita hay que comprarla:  
+Microsoft 365 (Office)  
+https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow  
+Microsoft OneDrive  
+https://play.google.com/store/apps/details?id=com.microsoft.skydrive  
 
-**Microsoft Word + OneDrive (gratis, exporta a PDF)**
+**Microsoft Word + OneDrive (gratis, exporta a PDF)**  
 **Nota**: No estoy usando esta App pero la dejo aquí por si desean usarla.
 Para exportar a PDF necesita tener internet, cuando el archivo esté listo, de clic en el icono de abajo "Compartir" y clic en "Enviar una copia" y allí está la opción para PDF pero debe enviarla al administrador de archivos para copiarla y tenerla en local en su celular, o si desea también la puede enviar a WhatsApp por ejemplo para compartirla a otra persona.
 Para editar archivos funciona bien con internet pero sin internet para abrir varios archivos (al abrir uno y luego cerrarlo para abrir otro) a se me cuelga y hay que cerrarla y volverla a abrir otra vez para poder abrir otro archivo, pero esto para archivos que estén físicamente en el celular, pues si usted desea, desde OneDrive (tiene que instalarlo) puede a un documento darle clic en los tres puntitos y marcar la opción "Hacer que esté disponible sin conección" y al hacerlo funcionará mejor.
-Esta App no acepta usar otro tipo de fuentes que las que se pueden usar e instalar desde la App misma. Y esta App gratis tiene algunas restricciones como que no permite crear documentos con dos columnas pero si editarlos, y para que sí lo permita hay que comprarla:
-Microsoft Word
-https://play.google.com/store/apps/details?id=com.microsoft.office.word
+Esta App no acepta usar otro tipo de fuentes que las que se pueden usar e instalar desde la App misma. Y esta App gratis tiene algunas restricciones como que no permite crear documentos con dos columnas pero si editarlos, y para que sí lo permita hay que comprarla:  
+Microsoft Word  
+https://play.google.com/store/apps/details?id=com.microsoft.office.word  
 
 
-**Documentos de Google + Google Drive**
+**Documentos de Google + Google Drive**  
 Necesita tener ambos instalados. Ests App necesita internet para muchas funciones. 
 Para exportar un archivo .docx a PDF primero hay que subirlo a Drive, abra Drive y de clic en el + y búsquelo y subalo, una vez subido (si no lo ve que se subió, de clic en "Archivos" y luego vuela a "Página principal" -es como para que se actualice-), y cuando lo vea subido a Drive allí dele clic y se abrirá, y de clic arriba a la derecha en los 3 puntitos y clic en: "> Compartir y exportar > Guardar como > Documentos de Google" Y al hacer esto se abrirá automáticamente como un Documento de Google, y de clic en: "> Compartir y exportar > Guardar como > Documento PDF (.pdf)", y el documento se abrirá en otra ventana y de clic al icono de descarga
 Para tener los archivos disponibles sin conección en Drive, con internet debe subirlo a Drive y una vez subido dar clic en los 3 puntitos y clic en: "Permitir acceso sin conexión"
-Para editar un documento teniendo abierto de clic abajo a de derecha en el lápiz, y para dar formato allí arriba en medio hay una letra A darle clic. Está App si permite manejar gratuitamente dos columnas, y solo es posible usar las fuentes que vienen allí. Para la configuración de la página far clic a los 3 puntitos y clic en : Configuración de la página
+Para editar un documento teniendo abierto de clic abajo a de derecha en el lápiz, y para dar formato allí arriba en medio hay una letra A darle clic. Está App si permite manejar gratuitamente dos columnas, y solo es posible usar las fuentes que vienen allí. Para la configuración de la página debe dar clic a los 3 puntitos y clic en : Configuración de la página:  
+Documentos de Google  
+https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.docs  
+Google Drive  
+https://play.google.com/store/apps/details?id=com.google.android.apps.docs  
 
-
-**AndrOpen Office ()** 
+**AndrOpen Office ()**  
 Esta App permite añadir fuentes tipográficas extras, en la "Tuerca" y clic en "Añadir fuentes" y buscar la .ttf que usted quiera (que ya tiene que tener descargada) y será añadida.
 Para exportar docx o odt a PDF necesita ser comprada. La interfaz es algo difícil de usar
-Esta App no necesita internet para funcionar, pero no se si lo necesite para exportar a PDF una vez comprada, puede que no lo necesite:
-https://play.google.com/store/apps/details?id=com.andropenoffice
+Esta App no necesita internet para funcionar, pero no se si lo necesite para exportar a PDF una vez comprada, puede que no lo necesite:  
+https://play.google.com/store/apps/details?id=com.andropenoffice  
 
 >**Nota**: Hay otras Apps, pero no las he revisado todas.
 
@@ -665,7 +668,6 @@ pull, etc
 Ahora, haga otro cambio en algún archivo, y haga otra vez: add, commit y push, y ya no le pedirá otra vez el token (si ha seguido estos pasos en el orden indicado).
 
 # Usando editores de texto para terminal como Nano o Vi
-
 Usando Termux llegará el momento que tenga que usar algún editor de texto de línea de comandos como "Nano" que me vino instalado en el Termux de "Mi Picks" de Xiaomi, pero si no está instalado, instálelo así:
 
 ```bash
@@ -691,7 +693,6 @@ vi --version
 ```
 
 ## Cómo poner por defecto a nano u otro editor de terminal
-
 Si por un caso instalan otro editor de texto de terminal y luego nano u otro que usen ya no es el editor por defecto, vuelvanlo a poner poniendo:
 
 ```
