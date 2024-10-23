@@ -615,10 +615,10 @@ https://play.google.com/store/apps/details?id=com.microsoft.office.word
 
 
 ### Documentos de Google + Google Drive (gratis, exporta a PDF con internet)
-Necesita tener ambos instalados. Ests App necesita internet para muchas funciones. 
-Para exportar un archivo .docx a PDF primero hay que subirlo a Drive, abra Drive y de clic en el + y búsquelo y subalo, una vez subido (si no lo ve que se subió, de clic en "Archivos" y luego vuela a "Página principal" -es como para que se actualice-), y cuando lo vea subido a Drive allí dele clic y se abrirá, y de clic arriba a la derecha en los 3 puntitos y clic en: "> Compartir y exportar > Guardar como > Documentos de Google" Y al hacer esto se abrirá automáticamente como un Documento de Google, y de clic en: "> Compartir y exportar > Guardar como > Documento PDF (.pdf)", y el documento se abrirá en otra ventana y de clic al icono de descarga
-Para tener los archivos disponibles sin conección en Drive, con internet debe subirlo a Drive y una vez subido dar clic en los 3 puntitos y clic en: "Permitir acceso sin conexión"
-Para editar un documento teniendo abierto de clic abajo a de derecha en el lápiz, y para dar formato allí arriba en medio hay una letra A darle clic. Está App si permite manejar gratuitamente dos columnas, y solo es posible usar las fuentes que vienen allí. Para la configuración de la página far clic a los 3 puntitos y clic en : Configuración de la página:  
+Necesita tener ambos instalados. Esta App necesita internet para muchas funciones. 
+Para exportar un archivo .docx a PDF primero hay que subirlo a Drive, en Drive de clic en el + y búsquelo y subalo, una vez subido (si no lo ve que se subió, abajo a la derecha de clic en "Archivos" y luego que entró de clic a "Página principal" -es como para que se actualice-), y cuando lo vea subido a Drive allí dele clic y se abrirá, y de clic arriba a la derecha en los 3 puntitos y clic en: "> Compartir y exportar > Guardar como > Documentos de Google" Y al hacer esto se abrirá automáticamente como un Documento de Google, y de clic en: "> Compartir y exportar > Guardar como > Documento PDF (.pdf)", y el documento se abrirá en otra ventana y de clic al icono de descarga yo podrá tener en local en el almacenamiento interno.
+Para tener los archivos disponibles sin conección en Drive, con internet debe subirlo a Drive y una vez subido dar clic en los 3 puntitos y clic en: "Permitir acceso sin conexión".
+Para editar un documento teniendo abierto de clic abajo a de derecha en el lápiz, y para dar formato es arriba en medio que hay una letra A darle clic. Esta App si permite manejar gratuitamente dos columnas, y solo es posible usar las fuentes que vienen allí. Para la configuración de la página dar clic a los 3 puntitos y clic en: Configuración de la página:  
 Documentos de Google  
 https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.docs
 Google Drive  
