@@ -492,7 +492,7 @@ y si uso: cd /sdcard así:
 /sdcard $
 ```
 
->**Nota**: Siempre es importante saber dónde está ubicado porque puede sin querer clonar un repositorio dentro del espacio de configuraciones de Termux o en storage, y en caso de pasar algún día eso, puede usar el comando mover "mv" para mover la carpeta que haya clonado desde el espacio de las configuraciones de Termux a storage y luego usar otra vez "mv" para mover la carpeta a "shared".
+>**Nota**: Siempre es importante saber dónde está ubicado porque puede ser que sin querer clonó un repositorio dentro del espacio de configuraciones de Termux o en storage, y en caso de pasar algún día eso, puede usar el comando mover "mv" para mover la carpeta que haya clonado desde el espacio de las configuraciones de Termux a storage y luego usar otra vez "mv" para mover la carpeta a "shared". Para esto es necesario saber que si estoy en "/data/data/com.termux/files/home" (que es por defecto donde uno está ubicado cuando recién abre Termux) fuera de este está "storage", y si estoy en "storage" fuera de este está "shared", entonces si cloné un repo llamado "mirepo" estando en ".../home" primero debo pasarlo a "storage" poniendo allí: `mv su-repo storage` y luego para pasarlo al Almacenamiento Interno poner: `mv su-repo shared` y listo solucionado; y si solo por error lo clonó en storage solo ponga: `mv su-repo shared`. Por cierto, si usted está en "shared" y desea ir a ".../home" ponga `cd`.
 
 ## Clonar un repositorio
 
@@ -552,7 +552,7 @@ Ahora edite algún archivo o carpeta  desde algún Administrador de archivos de 
 ### Gestor de archivos | File Manager Plus (gratis)
 https://play.google.com/store/apps/details?id=com.alphainventor.filemanager
 
-### Super Explorador de archivos | ESTRONGS LIMITED (Con publicidad)
+### Super Explorador de archivos | ESTRONGS LIMITED (gratis con publicidad)
 https://play.google.com/store/apps/details?id=com.esuper.file.explorer
 
 ### Solid Explorer File Manager| NetBeans (prueba gratis por algunos días)
