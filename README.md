@@ -709,7 +709,7 @@ vi --version
 Si por un caso instalan otro editor de texto de terminal y luego nano u otro que usen ya no es el editor por defecto, vuelvanlo a poner poniendo:
 
 ```
-sudo update-alternatives --config editor
+update-alternatives --config editor
 ```
 
 allí aparecerá la lista de los editores instalados para uno poder elegir el que estará por defecto, dependiendo de los que estén instalados, ejem si son tres se mostrará:
