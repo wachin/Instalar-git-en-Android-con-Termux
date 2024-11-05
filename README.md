@@ -502,6 +502,24 @@ Una vez que esté en el Almacenamiento Interno Compartido (llamado shared o /sdc
 git clone https://github.com/mamimeli/Cancion
 ```
 
+## Evitar problemas con caracteres al clonar un repositorio 
+Cuando clones un repositorio este no tiene que tener en los nombres de archivos los siguientes caracteres no permitidos en Android pues tienen ciertas restricciones :
+
+1. **Dos puntos `:`**
+2. **Asterisco `*`**
+3. **Signo de interrogación `?`**
+4. **Comillas `"`**
+5. **Menor que `<` y mayor que `>`**
+6. **Barra vertical `|`**
+7. **Barra invertida `\`**
+8. **Barra diagonal `/`**
+
+Además, evita nombres que terminen en un espacio o punto, ya que también pueden causar problemas en algunos sistemas de archivos compatibles con Android. Y si alguna vez comentes el error de hacer fetch o pull de un repositorio con esos caracteres, revisa más abajo la sección de resolver conflictos al hacer merge.
+
+### Recomendación
+Para evitar estos errores, utiliza caracteres comunes como letras, números, guiones `-`, y guiones bajos `_`, que son compatibles tanto en Android como en otros sistemas de archivos.
+
+
 ## Identificarse en git (y que no pida otra vez el token)
 
 Escriba en Termux (reemplace con sus datos):
