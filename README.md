@@ -674,7 +674,7 @@ Y luego envíe los cambios al remoto:
 git push
 ```
 
-y cuando le pregunte por su Usuario póngalo, y cuando le pregunte por el Password ponga su Token.
+y cuando le pregunte por su Usuario póngalo, y cuando le pregunte por el Password ponga su Token (**si hizo bien siguiendo la secuencia la proxima vez no le pedirá el token**).
 
 Se creará el archivo (eso es interno, no lo verá usted):
 
@@ -692,8 +692,6 @@ fetch
 merge  
 pull, etc  
 
-Ahora, haga otro cambio en algún archivo, y haga otra vez: add, commit y push, y ya no le pedirá otra vez el token (si ha seguido estos pasos en el orden indicado).
-
 # Usando editores de texto para terminal como Nano o Vim
 Usando Termux llegará el momento que tenga que usar algún editor de texto de línea de comandos como "Nano" que me vino instalado en el Termux de "Mi Picks" de Xiaomi, pero si no está instalado, instálelo así:
 
@@ -701,7 +699,7 @@ Usando Termux llegará el momento que tenga que usar algún editor de texto de l
 pkg install nano
 ```
 
-o si usa Vim
+o si usa Vim (no confundir con vi que es una versión que puede estar instalada pero es limitada, Vim es la versión completa)
 
 ```
 pkg install vim
@@ -716,7 +714,7 @@ nano --version
 o para Vim
 
 ```
-vi --version
+vim --version
 ```
 
 ## Cómo poner por defecto a nano u otro editor de terminal
