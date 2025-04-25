@@ -473,7 +473,6 @@ Para saber en qué ruta está ubicado, escriba en Termux:
 pwd
 ```
 
-
 y presione Enter.
 
 Nota: Si es la primera vez que abre Termux estará en la carpeta de configuraciones de Termux (es una especie de emulación del HOME de Linux para que Termux tenga allí sus archivos como si estuviera en Linux):
@@ -641,7 +640,6 @@ Para editar un documento teniendo abierto de clic abajo a de derecha en el lápi
 **Google Drive ** 
 [https://play.google.com/store/apps/details?id=com.google.android.apps.docs](https://play.google.com/store/apps/details?id=com.google.android.apps.docs)
 
-
 ### AndrOpen Office (gratis, de pago exporta a PDF)
 Esta App permite añadir fuentes tipográficas extras, en la "Tuerca" y clic en "Añadir fuentes" y buscar la .ttf que usted quiera (que ya tiene que tener descargada) y será añadida.
 Para exportar docx o odt a PDF necesita ser comprada. La interfaz es algo difícil de usar
@@ -750,9 +748,7 @@ Para editar texto es muy sencillo, solo tiene que ubicarse en la posición adecu
 
 Para guardar cambios: Nano abrevia CTRL con ^, así CTRL + O es igual a:
 
-
 ^O
-
 
 y en nano aparece así:
 
@@ -760,9 +756,7 @@ y en nano aparece así:
 
 Así, para guardar presione:
 
-
 CTRL + O
-
 
 y aparecerá un mensaje que dice algo así:
 
@@ -773,7 +767,6 @@ Nombre del fichero a escribir: nombre-del-archivo.txt
 y presione ENTER.
 
 > Nota: Es importante hacer notar que es la letra O, no es cero.
->
 
 ### Cómo salir de Nano: 
 
@@ -813,16 +806,12 @@ y vuelva a identificarse.
 
 Editando: Una vez que aparece el entorno del editor Vim estaremos por defecto en el modo de comando, y si queremos editar presionemos una vez la tecla:
 
-
 i
-
 
 al hacerlo se cambiará al modo de edición y edite.
 Una vez que ya no quiera seguir editando presione:
 
-
 ESC
-
 
 que es para cambiar al modo de comandos.
 
@@ -836,9 +825,7 @@ Para guardar presione:
 
 y presione:
 
-
 ENTER
-
 
 Para dejar de escribir o salir de Vim, use el comando:
 
@@ -885,7 +872,6 @@ Necesitará usar Nano o Vim dentro de Termux para poder hacer un Merge. También
 
 **Cómo hacer merge con git**
 [https://github.com/wachin/como-hacer-merge-con-git](https://github.com/wachin/como-hacer-merge-con-git)
-
 
 # Cómo actualizar el Token
 
