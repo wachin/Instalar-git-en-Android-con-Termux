@@ -157,23 +157,6 @@ Puede descargar sólo el APK de Termux desde:
 
 [https://f-droid.org/en/packages/com.termux/](https://f-droid.org/en/packages/com.termux/)
 
-Y para que ustedes tengan tranquilidad, carguen el Apk descargada a:
-
-virustotal.com
-
-está limpia
-
-e instalarla
-
-### 5ta Opción desde el repositorio del desarrollador en GitHub
-
-Descargue el archivo Universal:
-
-[https://github.com/termux/termux-app/releases](https://github.com/termux/termux-app/releases)
-
-. . . debug_universal.apk
-
-Nota: Si ustedes saben ver cuál es la arquitectura de su Android pueden elegir el paquete correspondiente.
 
 Y para que ustedes tengan tranquilidad, carguen el Apk descargada a:
 
@@ -222,9 +205,9 @@ Cuando he instalado Termux desde F-Droid lo siguiente es lo que hago porque quie
 **Tutorial probado en:**  
 
 - **Termux 0.119.0 en Xiaomi Redmi Note 11**
-- **Termux 0.118.1 en F-Droid**
+- **Termux 0.119.0 desde [https://f-droid.org/en/packages/com.termux/](https://f-droid.org/en/packages/com.termux/) en SAMSUNG GALAXY A15, pero se descarga como com.termux_1022.apk**
 
-**Nota:** Este tutorial lo hago en 2024 Octubre
+**Nota:** Este tutorial lo reviso en 2026 enero
 
 ### termux-change-repo
 
@@ -244,7 +227,61 @@ Which repositories do you want to edit? Select with space.
 │  <  OK  >    <Cancel> │
 ```
 
-Solo dar Enter (no es necesario seleccionar otra opción porque solo hay una).
+**Nota:** Puede seleccionar con las flechas más barra espaciadora
+
+O con clic y darle Ok
+
+Pero si te sale así:
+
+```
+┌────────────────termux-change-repo──────────────────┐
+│ Do you want to choose a mirror group or a single   │
+│ mirror? Select with space.                         │
+│ ┌────────────────────────────────────────────────┐ │
+│ │(*) Mirror groupRotate between several mirrors (│ │
+│ │( ) Single mirroChoose a single mirror to use   │ │
+│ │                                                │ │
+│ │                                                │ │
+│ │                                                │ │
+│ └────────────────────────────────────────────────┘ │
+├────────────────────────────────────────────────────┤  │             <  OK  >       <Cancel>
+```
+
+Elije en de abajo: 
+
+```
+(* ) Single mirroChoose a single mirror
+```
+
+Y cuando te salsa así: 
+
+```
+┌──────────termux-change-repo────────────┐
+│ Which group of mirrors do you want to  │  │ use? Select with space.                │
+│ ┌────────────────────────────────────┐ │
+│ │(*) All mirrors All in the entire world│ │
+│ │( ) Mirrors in AAll in Asia (excl. C│ │
+│ │( ) Mirrors in CAll in Chinese Mainl│ │
+│ │( ) Mirrors in EAll in Europe       │ │
+│ │( ) Mirrors in NAll in North America│ │
+│ │( ) Mirrors in OAll in Oceania      │ │
+│ │( ) Mirrors in RAll in Russia       │ │
+│ │                                    │ │
+│ │                                    │ │
+│ └────────────────────────────────────┘ │
+├────────────────────────────────────────┤
+│         <  OK  >     <Cancel>
+```
+
+Yo aplasté Enter en la primera opción: 
+
+(*) All mirrors All in the entire world
+
+Que significa: 
+
+(*) Todos los espejos Todo en el mundo entero
+
+Pero se podía elegir alguna en especial si uno quiere un mirror de alguna de esas zonas y se ahorraría tiempo en estar buscando
 
 Si es la segunda vez (estas opciones pueden variar de una versión a otra de Termux) que hacen este proceso puede que les aparezca así: 
 
@@ -256,11 +293,13 @@ Do you want to choose a mirror group
 │         <  OK  >     <Cancel>
 ```
 
-en este caso haga clic en la segunda opción para que esa que marcada: 
+en este caso haga clic en la segunda opción para que esa que marcada (lo mismo que antes descrito): 
 
 (*) Single miChoose a single mirror
 
-cuya traducción sería: Escoja un solo espejo
+cuya traducción es: 
+
+(*) Escoja un solo espejo
 
 y de clic en ok
 
