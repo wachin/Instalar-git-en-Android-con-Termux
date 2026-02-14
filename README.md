@@ -4,6 +4,9 @@
 
 Termux es un emulador de terminal y entorno Linux para Android que permite instalar y usar git como lo haríamos desde una terminal de Linux. También se pueden instalar otros programas como yt-dlp (para descargar videos de YouTube), nnn (Administrador de Archivos), y otros que se puedan usar desde la terminal.
 
+Antes de seguir, si ustedes no van a usar git, no lean las partes de este tutorial en las que se explican uso, configuraciones de git.
+
+
 ## El porqué de este tutorial
 
 En Linux (MX Linux 21) estoy usando git como un tipo de almacenamiento en la nube, similar a:
@@ -45,7 +48,7 @@ pero para este no hay un editor en la Play Store.
 
 ## ¿Qué más se puede hacer con git?
 - Se puede usar Obsidian para editar un repositorio de github que también se pueda usar en Linux:
-[Configurar Obsidian Android App para usar Repositorio git compatible con Linux](https://github.com/wachin/Facilitar-el-Software-Libre/blob/main/Tutoriales/Obsidian/Configurar%20Obsidian%20Android%20App%20para%20usar%20un%20repositorio%20compatible%20con%20Linux/Obsidian%20Android%20%26%20Linux.md)
+[Sincronizar git en Android en Termux sin que se dañe el repositorio](https://github.com/wachin/Instalar-git-en-Android-con-Termux/blob/main/Sincronizar%20git%20en%20Android%20en%20Termux%20sin%20que%20se%20da%C3%B1e%20el%20repositorio.md)
 - Se puede hacer push, fetch, merge y todos los demás comandos para mantener sincronizado el repo
 - Se puede trabajar con los archivos desde:
   - Android a Linux y viceversa
@@ -61,9 +64,12 @@ En el video "Aprende GIT Ahora! Curso completo gratis desde cero" ([https://yout
 
 Este tutorial no pretende enseñar a usar git. Si no sabe usarlo, puede buscar en Google las palabras "aprende git cursos" y encontrará recursos en Udemy, Platzi, devcode, ed.team, Coursera, o [https://github.com/JJ/aprende-git](https://github.com/JJ/aprende-git), Youtube, etc.
 
+# Instalando Termux en Android
+
+A continuación elija la opción que necesite:
 ## Instalando Termux y git en Android 7, 8, 9, 10, 11, 12, 13, 14+
 
-Le dejo 5 opciones:
+Le dejo opciones, como se me perdió mi Xiaomi y me compré un SAMSUNG GALAXY A15 ahora uso la 3er opción:
 
 ### 1ra Opción: Instalación con Google Play Store
 
@@ -75,12 +81,12 @@ También lea:
 
 ### 2da Opción: Instalación con Xiaomi
 
-Si tiene un celular Xiaomi, busque en la tienda de aplicaciones:
+Si Usted tiene un celular Xiaomi, busque en la tienda de aplicaciones:
 
 - Mi Picks
 - o GetApps
 
-Busque "Termux", instálelo. Ellos tienen a la fecha 2024 la versión Termux 0.119, instalelo y ábralo.
+Busque "Termux", instálelo. Ellos tienen a la fecha que se me perdió mi Xiaomi 2024 la versión Termux 0.119, instalelo y ábralo.
 
 **Actualizar y automáticamente buscar un repositorio y actualizar**
 
@@ -90,7 +96,7 @@ Si solo va a usar git en Termux, se le facilita todo. Solo ponga:
 pkg update
 ```
 
->Nota: En la versión 0.119 no es necesario usar `pkg ugrade` porque `pkg update` es una especie de híbrido que hace las dos cosas
+>Nota: En la versión 0.119 de ellos no es necesario usar `pkg ugrade` porque `pkg update` es una especie de híbrido que hace las dos cosas
 
 Aparecerá un mensaje que dice: "Testing the available mirrors:"
 
@@ -151,9 +157,11 @@ está limpia, instalar
 
 luego abra F-Droid y en la lupa verde que está abajo a la izquierda busque: "Termux Emulador de terminal con paquetes" e instálelo.
 
+En esta versión si he usado `pkg update` y `pkg upgrade` porque no es un híbrido.
+
 ### 4ta Opción: Paquete apk desde F-Droid
 
-Puede descargar sólo el APK de Termux desde:
+Puede descargar si deseas sólo el APK de Termux desde:
 
 [https://f-droid.org/en/packages/com.termux/](https://f-droid.org/en/packages/com.termux/)
 
@@ -168,7 +176,7 @@ e instalarla
 
 ## Zoom en Termux
 
-Si la letra de Termux es muy pequeña, hágalo más grande usando los dos dedos haciendo zoom hacia dentro o afuera.
+Si la letra de Termux es muy pequeña, hágalo más grande usando los dos dedos haciendo zoom hacia afuera, y luego corrige había dentro.
 
 ## Para instalar Termux en Android 5, 6
 
@@ -410,15 +418,10 @@ pkg upgrade
 
 (pero como les explicaba más arriba, en la versión 0,119 de Xiaomi no es necesario porque pkg update es una especie de híbrido que hace las dos cosas) 
 
-esté atento y ponga la: "y" varias veces. Y una vez k termine ponga:
-
-```
-pkg install git
-```
-
-cuando ponga este comando vea allí cuál repo aparece, en caso de que se haya cambiado el repo cancele con "Ctrl + C" y cambielo usando otra vez `termux-change-repo` xq sino empezará a buscar aleatoriamente otro repo
+esté atento y ponga la: "y" varias veces.
 
 ## Aparecerán más opciones en termux-change-repo después de actualizar
+
 Si Ud x algún motivo desea usar otra vez el comando: 
 
 ```
@@ -434,39 +437,20 @@ pkg update
 ```
 además, este comando le aconsejo usarlo con alguna frecuencia, puede ser cada mes, es para tener actualizados los parquetes (en Termux 0.119 solo con este basta, y con 0.118 luego hay que usar pkg upgrade)
 
+## Instalando git
+
+```
+pkg install git
+```
+
+cuando ponga este comando vea allí cuál repo aparece, en caso de que se haya cambiado el repo cancele con "Ctrl + C" y cambielo usando otra vez `termux-change-repo` xq sino empezará a buscar aleatoriamente otro repo
+
+
 Para ver la versión que tiene instalada de git ponga en Termux:
 
 ```
 git --version
 ```
-
-## Crear y usar un token como contraseña en github.com
-
-(Si ya tiene el token omita este paso)
-
-Para poder explicar mejor usaré la siguiente cuenta:
-[https://github.com/mamimeli](https://github.com/mamimeli)
-
-Entre en la siguiente dirección:
-[https://github.com/settings/](https://github.com/settings/)
-
-Allí haga clic en:
-
-1. Developer Settings
-2. Personal Access Token
-3. Tokens (classic)
-4. Generate New Token (Classic)
-
-O también directamente en la dirección:
-[https://github.com/settings/tokens](https://github.com/settings/tokens)
-
-Allí en "**Note**" póngale algún nombre.
-
-En "**Expiration**" seleccione un tiempo de expiración (Github aconseja poner un tiempo de expiración: [https://bit.ly/3BrIvA9](https://bit.ly/3BrIvA9))
-
-En "**Select scopes**" marque "**repo**" (pero si necesita algún otro permiso márquelo) y al final de la página haga clic en "**Generate token**".
-
-Copie inmediatamente el código generado y téngalo en un lugar seguro o en un gestor de contraseñas.
 
 ## Acceder al Almacenamiento Interno
 
@@ -532,6 +516,37 @@ y si uso: cd /sdcard así:
 
 >**Nota**: Siempre es importante saber dónde está ubicado porque puede ser que sin querer clonó un repositorio dentro del espacio de configuraciones de Termux o en storage, y en caso de pasar algún día eso, puede usar el comando mover "mv" para mover la carpeta que haya clonado desde el espacio de las configuraciones de Termux a storage y luego usar otra vez "mv" para mover la carpeta a "shared". Para esto es necesario saber que si estoy en "/data/data/com.termux/files/home" (que es por defecto donde uno está ubicado cuando recién abre Termux) fuera de este está "storage", y si estoy en "storage" fuera de este está "shared", entonces si cloné un repo llamado "mirepo" estando en ".../home" primero debo pasarlo a "storage" poniendo allí: `mv su-repo storage` y luego para pasarlo al Almacenamiento Interno poner: `mv su-repo shared` y listo solucionado; y si solo por error lo clonó en storage solo ponga: `mv su-repo shared`. Por cierto, si usted está en "shared" y desea ir a ".../home" ponga `cd`.
 
+
+
+## Crear y usar un token como contraseña en github.com
+
+(Si ya tiene el token omita este paso)
+
+Para poder explicar mejor usaré la siguiente cuenta:
+[https://github.com/mamimeli](https://github.com/mamimeli)
+
+Entre en la siguiente dirección:
+[https://github.com/settings/](https://github.com/settings/)
+
+Allí haga clic en:
+
+1. Developer Settings
+2. Personal Access Token
+3. Tokens (classic)
+4. Generate New Token (Classic)
+
+O también directamente en la dirección:
+[https://github.com/settings/tokens](https://github.com/settings/tokens)
+
+Allí en "**Note**" póngale algún nombre.
+
+En "**Expiration**" seleccione un tiempo de expiración (Github aconseja poner un tiempo de expiración: [https://bit.ly/3BrIvA9](https://bit.ly/3BrIvA9))
+
+En "**Select scopes**" marque "**repo**" (pero si necesita algún otro permiso márquelo) y al final de la página haga clic en "**Generate token**".
+
+Copie inmediatamente el código generado y téngalo en un lugar seguro o en un gestor de contraseñas.
+
+
 ## Clonar un repositorio
 
 Una vez que esté en el Almacenamiento Interno Compartido (llamado shared o /sdcard -si utilizo el segundo método para llegar allí-) clone un Repositorio, por ejemplo:
@@ -540,8 +555,8 @@ Una vez que esté en el Almacenamiento Interno Compartido (llamado shared o /sdc
 git clone https://github.com/mamimeli/Cancion
 ```
 
-## Evitar problemas con caracteres al clonar un repositorio 
-Cuando clones un repositorio este no tiene que tener en los nombres de archivos los siguientes caracteres no permitidos en Android pues tienen ciertas restricciones :
+## Evitar problemas con caracteres tipográficos al clonar un repositorio 
+Cuando clones un repositorio este no tiene que tener en los nombres de archivos o carpetas los siguientes caracteres no permitidos en Android no Linux pues tienen ciertas restricciones :
 
 1. **Dos puntos `:`**
 2. **Asterisco `*`**
