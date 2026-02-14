@@ -61,7 +61,7 @@ Como dato importante LibreOffice tiene un archivo para control de versiones: .fo
 [FODT en LibreOffice](https://facilitarelsoftwarelibre.blogspot.com/2020/06/que-es-un-archivo-fodt-fodt-flat-open.html)
 pero para este no hay un editor en la Play Store.
 
-## ¿Qué más se puede hacer con git?
+## Qué más se puede hacer con git, instalar Obsidian para tener tus notas y conocimientos en el celular
 - Se puede usar Obsidian para editar un repositorio de github que también se pueda usar en Linux, solo que el App Obsidian con Mucha frecuencia daña el repositorio, pero la solución aquí está:
 [Sincronizar git en Android en Termux sin que se dañe el repositorio](https://github.com/wachin/Instalar-git-en-Android-con-Termux/blob/main/Sincronizar%20git%20en%20Android%20en%20Termux%20sin%20que%20se%20da%C3%B1e%20el%20repositorio.md)
 Pero para que no se corrompa el repositorio hay que usar **git worktree**, allí en este tutorial está todo explicado.
