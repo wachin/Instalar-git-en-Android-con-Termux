@@ -55,6 +55,9 @@ Luego:
 pkg upgrade
 ```
 
+**Nota:** En algunas instalaciones de Termux, ejemplo en los celulares modernos Xiaomi puede venir una versión híbrida en la que el comando que se usa para actualizar los repositorios, éste al mismo tiempo aplica los cambios, en tal caso ya no es necesario usar`pkg upgrade` (además de que es mejor no hacerlo para que no se cambien los repositorios)
+
+
 ⚠️ Te hará varias preguntas.
 Responde con:
 
@@ -166,12 +169,16 @@ pwd
 
 ---
 
-# 📂 Crear carpeta para descargas
+# 📂 Crear carpeta para descargas (opcional)
+
+Solo si lo desean pueden crear una carpeta especial para entrar allí y guardar las descargas:
 
 ```bash
 mkdir descargas-yt
 cd descargas-yt
 ```
+
+Sino nomás guarden en sdcard (el Almacenamiento Interno).
 
 ---
 
