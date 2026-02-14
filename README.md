@@ -1,4 +1,4 @@
-# Tutorial: Uso de Git en Termux para Android
+# Termux en Android para instalar programas de terminal de Linux como: git, yt-dlp, nnn, tree, y otros
 
 **Fecha: 2024-08-25**
 
