@@ -2,9 +2,15 @@
 
 **Fecha: 2024-08-25**
 
-Termux es un emulador de terminal y entorno Linux para Android que permite instalar y usar git como lo haríamos desde una terminal de Linux. También se pueden instalar otros programas como yt-dlp (para descargar videos de YouTube), nnn (Administrador de Archivos), y otros que se puedan usar desde la terminal.
+Termux es un emulador de terminal y entorno Linux para Android que permite instalar y usar git como lo haríamos desde una terminal de Linux. También se pueden instalar otros programas como yt-dlp (para descargar videos de YouTube), nnn (Administrador de Archivos), tree, y otros que se puedan usar desde la terminal.
 
-Antes de seguir, si ustedes no van a usar git, no lean las partes de este tutorial en las que se explican uso, configuraciones de git.
+Antes de seguir, si ustedes no van a usar git, no lean las partes de este tutorial en las que se explican uso, y configuraciones de git, pero si lo piden instalar aunque no lo vayan a usar, lo que pasa es que para mí es una manera de verificar que puedan instalar otros programas de terminal en Termux.
+
+## Instalar yt-dlp
+Después de instalar Termux y git podrán instalar yt-dlp, dejo aparte la instalación:
+
+- [yt-dlp](https://github.com/wachin/Instalar-git-en-Android-con-Termux/blob/main/Instalar%20yt-dlp%20en%20Termux%20en%20Android%20para%20descargar%20videos%2C%20audios%2C%20de%20YouTube.md)
+
 
 
 ## El porqué de este tutorial
@@ -27,11 +33,20 @@ Esto mismo se puede hacer con git desde un celular Android usando Termux para te
 ### Pros
 - Archivos offline en el celular
 
-### Hay que saber
+### Contras
 - Sincronización manual
 - Un repo de git contiene una copia de sus archivos en la carpeta oculta .git, por lo cual ocupará el doble de espacio o más
 - Para usuarios avanzados que sepan de control de versiones con git
 - Usar la terminal
+- Si no tiene cuidado si editar un archivo el repositorio se puede dañar.
+
+#### Como evitar que mi repositorio se dañe al editar un archivo
+
+Cuando edites un archivo de un repositorio que haya si clonado en el Almacenamiento Interno:
+
+- El teléfono no debe estar en modo ahorro
+- Después de editar el archivo hay que cerrar el App antes de enviar los cambios al repositorio
+- Si usas mucho un repositorio para editar los mismos archivos en el celular y en el ordenador, mejor usa **git worktree**, como se explica más abajo para usar Obsidian en Android en Termux así nunca se corromperá un repositorio.
 
 ### Requerimientos
 - Teléfono con Android
@@ -43,12 +58,13 @@ Se pueden usar archivos para control de versiones como: .txt, .md, u otros.
 En los archivos compatibles con control de versiones solo se aumentará el tamaño del archivo donde se edite y agregue información.
 
 Como dato importante LibreOffice tiene un archivo para control de versiones: .fodt
-[https://facilitarelsoftwarelibre.blogspot.com/2020/06/que-es-un-archivo-fodt-fodt-flat-open.html](https://facilitarelsoftwarelibre.blogspot.com/2020/06/que-es-un-archivo-fodt-fodt-flat-open.html)
+[FODT en LibreOffice](https://facilitarelsoftwarelibre.blogspot.com/2020/06/que-es-un-archivo-fodt-fodt-flat-open.html)
 pero para este no hay un editor en la Play Store.
 
 ## ¿Qué más se puede hacer con git?
-- Se puede usar Obsidian para editar un repositorio de github que también se pueda usar en Linux:
+- Se puede usar Obsidian para editar un repositorio de github que también se pueda usar en Linux, solo que el App Obsidian con Mucha frecuencia daña el repositorio, pero la solución aquí está:
 [Sincronizar git en Android en Termux sin que se dañe el repositorio](https://github.com/wachin/Instalar-git-en-Android-con-Termux/blob/main/Sincronizar%20git%20en%20Android%20en%20Termux%20sin%20que%20se%20da%C3%B1e%20el%20repositorio.md)
+Pero para que no se corrompa el repositorio hay que usar **git worktree**, allí en este tutorial está todo explicado.
 - Se puede hacer push, fetch, merge y todos los demás comandos para mantener sincronizado el repo
 - Se puede trabajar con los archivos desde:
   - Android a Linux y viceversa
@@ -56,7 +72,6 @@ pero para este no hay un editor en la Play Store.
   - Android a MAC y viceversa
 
 > Nota: Los 2 últimos no los he probado, pero sé que existen.
->
 
 ## Compatibilidad entre Android y Linux
 
