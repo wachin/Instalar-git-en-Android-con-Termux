@@ -146,7 +146,7 @@ Git vive protegido en Linux dentro de Termux
 ---
 
 ## 🧰 Paso 1 — Clonar el repositorio en Termux
-Para ser ordenadores vamos a crear en `/data/data/com.termux/files/home` una carpeta llamada `git` para allí dentro clonar el repositorio u otros repositorios, ejemplo, así:
+Para ser organizados vamos a crear en `/data/data/com.termux/files/home` una carpeta llamada `git` para allí dentro clonar el repositorio u otros repositorios, ejemplo, así:
 
 ```bash
 cd ~
